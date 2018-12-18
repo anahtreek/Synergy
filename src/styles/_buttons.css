@@ -1,0 +1,127 @@
+@import 'styles/_breakpoints.css';
+
+:global(.btn), a:global(.btn) {
+  border-radius: 2px;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  background: transparent;
+  border: 1px solid #cccccc;
+  padding: 8px 20px;
+  height: 36px;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  min-width: 110px;
+  cursor: pointer;
+  transition: color .15s ease, background .15s ease;
+}
+
+:global(.btn:hover) {
+  background: #6dc24b;
+  border-color: #67a34d;
+  color: #fff;
+  text-decoration: none;
+}
+
+:global(.btn.default) {
+  color: #6dc24b;
+  background: white;
+}
+
+:global(.btn.danger) {
+  color: #ef3341;
+  background: white;
+}
+
+:global(.btn.default:hover) {
+  color: white;
+  border-color: #6dc24b;
+  background: #6dc24b;
+}
+
+:global(.btn.danger:hover) {
+  color: white;
+  border-color: #ef3341;
+  background: #ef3341;
+}
+
+:global(.btn.primary) {
+  color: #fff;
+  font-size: 14px;
+  background: #6dc24b;
+  border-color: #6dc24b;
+}
+
+:global(.btn.primary:hover) {
+  background: #529037;
+  border-color: #529037;
+}
+
+:global(.btn.decline) {
+  color: white;
+  font-size: 14px;
+  background: #646363;
+  border-color: #646363;
+}
+
+:global(.btn.decline:hover) {
+  opacity: .7;
+}
+
+:global(.btn.sm) {
+  font-size: 12px;
+  line-height: 14px;
+  height: 30px;
+  min-width: 90px;
+}
+
+:global(.btn.disabled) {
+  border-color: #e5e5e5;
+  background: #e5e5e5;
+  color: rgba(0, 0, 0, .4);
+  pointer-events: none;
+}
+
+:global(.btn.alert){
+  color: #fff;
+  font-size: 14px;
+  background-color: #ef3341;
+  border-color: #de1121;
+}
+
+:global(.btn.alert:hover){
+  background-color: #de1121;
+  border-color: #de1121;
+}
+
+@mixin mobile {
+  :global(.btn:hover) {
+    color: #000;
+    background: transparent;
+    border: 1px solid #cccccc;
+  }
+  :global(.btn.primary:hover) {
+    color: #fff;
+    background: #6dc24b;
+    border-color: #6dc24b;
+  }
+  :global(.btn.default:hover) {
+    color: #6dc24b;
+    background: white;
+    border-color: #ccc;
+  }
+  :global(.btn.danger:hover) {
+    color: #ef3341;
+    border-color: #ef3341;
+    background: white;
+  }
+
+  :global(.btn.alert:hover){
+    color: #fff;
+  }
+  :global(.btn.decline:hover) {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,2050 @@
+{
+  "userProfile": {
+    "dob": "06-JUL-1990",
+    "email": "john@email.com",
+    "resume": 542466
+  },
+  "currentEvent": {
+    "eventName": "EventName Lorem ipsum",
+    "eventData": [
+      {"title": "Event Type", "value": "Engineering"},
+      {"title": "Campus Region", "value": "Kamataka"},
+      {"title": "Venue Name", "value": "BIET"},
+      {"title": "Venue Address", "value": "ECbangalore"},
+      {"title": "Event Date", "value": "31 May 2017", "explain": "3 Days"}
+    ],
+    "formStats": {
+      "sections": [
+        {"title": "Personal Information", "value": 12},
+        {"title": "Education Details", "value": 10},
+        {"title": "Previous Employment Details", "value": 0},
+        {"title": "Additional Details", "value": 13},
+        {"title": "Declaration", "value": 10},
+        {"title": "Upload Document", "value": 34}
+      ],
+      "completed": 50
+    },
+    "steps": [
+      {"title": "Register", "icon": "./i/icons/registered-icon.png", "activeIcon": "./i/icons/registered-icon-active.png"},
+      {"title": "CAM", "icon": "./i/icons/cam-icon.png", "activeIcon": "./i/icons/cam-icon-active.png"},
+      {"title": "Boarding Pass", "icon": "./i/icons/pass-icon.png", "activeIcon": "./i/icons/pass-icon-active.png"},
+      {"title": "Unified", "icon": "./i/icons/unified-icon.png", "activeIcon": "./i/icons/unified-icon-active.png"},
+      {"title": "Offer", "icon": "./i/icons/offer-icon.png", "activeIcon": "./i/icons/offer-icon-active.png"},
+      {"title": "Join Location", "icon": "./i/icons/location-icon.png"}
+    ],
+    "mobileSteps": [
+      {"title": "Register", "icon": "./i/icons/registered-icon.png", "activeIcon": "./i/icons/registered-icon-active.png"},
+      {"title": "CAM", "icon": "./i/icons/cam-icon.png", "activeIcon": "./i/icons/cam-icon-active.png"},
+      {"title": "Boarding Pass", "icon": "./i/icons/pass-icon.png", "activeIcon": "./i/icons/pass-icon-active.png"},
+      {"title": "Unified", "icon": "./i/icons/unified-icon.png", "activeIcon": "./i/icons/unified-icon-active.png"},
+      {"title": "Offer", "icon": "./i/icons/offer-icon.png", "activeIcon": "./i/icons/offer-icon-active.png"},
+      {"title": "Join Location", "icon": "./i/icons/location-icon.png"}
+    ]
+  },
+  "candidates": {
+    "meta": {"total": 123},
+    "data": [
+      {"id": 1945, "ref": 1203, "name": "Name Lorem", "email": "name@email", "college": "ABC", "ten": 11, "twelve": 22, "ug": 33, "pg": 44, "eventType": "ENG", "status": "Technical Reject", "location1": "Chennai", "location2": "Hyderabad", "location3": "Pune"},
+      {"id": 1946, "ref": 1203, "name": "Name Lorem", "email": "name@email", "college": "ABC", "ten": 11, "twelve": 22, "ug": 33, "pg": 44, "eventType": "ENG", "status": "Technical Reject", "location1": "Chennai", "location2": "Hyderabad", "location3": "Pune"},
+      {"id": 1947, "ref": 1203, "name": "Name Lorem", "email": "name@email", "college": "ABC", "ten": 11, "twelve": 22, "ug": 33, "pg": 44, "eventType": "ENG", "status": "Technical Select", "location1": "Chennai", "location2": "Hyderabad", "location3": "Pune"},
+      {"id": 1948, "ref": 1203, "name": "Name Lorem", "email": "name@email", "college": "ABC", "ten": 11, "twelve": 22, "ug": 33, "pg": 44, "eventType": "ENG", "status": "Technical Select", "location1": "Chennai", "location2": "Hyderabad", "location3": "Pune"},
+      {"id": 1949, "ref": 1203, "name": "Name Lorem", "email": "name@email", "college": "ABC", "ten": 11, "twelve": 22, "ug": 33, "pg": 44, "eventType": "ENG", "status": "Technical Select", "location1": "Chennai", "location2": "Hyderabad", "location3": "Pune"},
+      {"id": 1950, "ref": 1203, "name": "Name Lorem", "email": "name@email", "college": "ABC", "ten": 11, "twelve": 22, "ug": 33, "pg": 44, "eventType": "ENG", "status": "Technical Reject", "location1": "Chennai", "location2": "Hyderabad", "location3": "Pune"},
+      {"id": 1951, "ref": 1203, "name": "Name Lorem", "email": "name@email", "college": "ABC", "ten": 11, "twelve": 22, "ug": 33, "pg": 44, "eventType": "ENG", "status": "Technical Reject", "location1": "Chennai", "location2": "Hyderabad", "location3": "Pune"},
+      {"id": 1952, "ref": 1203, "name": "Name Lorem", "email": "name@email", "college": "ABC", "ten": 11, "twelve": 22, "ug": 33, "pg": 44, "eventType": "ENG", "status": "Technical Reject", "location1": "Chennai", "location2": "Hyderabad", "location3": "Pune"},
+      {"id": 1953, "ref": 1203, "name": "Name Lorem", "email": "name@email", "college": "ABC", "ten": 11, "twelve": 22, "ug": 33, "pg": 44, "eventType": "ENG", "status": "Technical Select", "location1": "Chennai", "location2": "Hyderabad", "location3": "Pune"},
+      {"id": 1954, "ref": 1203, "name": "Name Lorem", "email": "name@email", "college": "ABC", "ten": 11, "twelve": 22, "ug": 33, "pg": 44, "eventType": "ENG", "status": "Technical Select", "location1": "Chennai", "location2": "Hyderabad", "location3": "Pune"}
+    ],
+    "locationOptions": ["location 1", "location 2", "location 3"],
+    "filtersOptions": {
+      "branch": ["branch 1", "branch 2", "branch 3"]
+    },
+    "statusOptions": ["status 1", "status 2", "status 3"],
+    "testBatchOptions": ["batch 1", "batch 2", "batch 3"],
+    "eventOptions": ["event 1", "event 2", "event 3"],
+    "navTabs": [{
+        "text": "Registered Candidates",
+        "url": "/lcm/candidates/registered"
+      },{
+        "text": "Ready for Group Discussion",
+        "url": "/lcm/candidates/ready-for-group-discussion"
+      },{
+        "text": "Ready for Written Test",
+        "url": "/lcm/candidates/ready-for-written-test"
+      },{
+        "text": "Technical Evaluation Process",
+        "url": "/lcm/candidates/technical-evaluation-process"
+      },{
+        "text": "HR Evaluation Process",
+        "url": "/lcm/candidates/hr-evaluation-process"
+      },{
+        "text": "LOI",
+        "url": "/lcm/candidates/loi"
+      }],
+    "eventDetails": {
+      "name": "Event NameLorem",
+      "id": 8458,
+      "lcm": "Namelorem",
+      "jobCode": 1147,
+      "subdomain": "--",
+      "date": "31 July 2017",
+      "type": "Engineering",
+      "institueName": "BIET",
+      "domain": "Star",
+      "region": "Kamataka",
+      "category": "Single",
+      "status": "Waiting for approval"
+    }
+  },
+
+  "jobCodes": {
+    "meta": {"total": 123},
+    "data": [
+      {"masterCode": 1945, "regionalCode": 1203, "noOfHires": 100, "hiringYear": 2016, "region": "Karnataka", "campusType": "Engineering", "campusCateg": "Off Campus", "hiringDomain": "Turbo", "hiringSubdom": "Turbo Intern"},
+      {"masterCode": 1946, "regionalCode": 1203, "noOfHires": 100, "hiringYear": 2016, "region": "Karnataka", "campusType": "Engineering", "campusCateg": "Off Campus", "hiringDomain": "Turbo", "hiringSubdom": "Turbo Intern"},
+      {"masterCode": 1947, "regionalCode": 1203, "noOfHires": 100, "hiringYear": 2016, "region": "Karnataka", "campusType": "Engineering", "campusCateg": "Off Campus", "hiringDomain": "Turbo", "hiringSubdom": "Turbo Intern"},
+      {"masterCode": 1948, "regionalCode": 1203, "noOfHires": 100, "hiringYear": 2016, "region": "Karnataka", "campusType": "Engineering", "campusCateg": "Off Campus", "hiringDomain": "Turbo", "hiringSubdom": "Turbo Intern"},
+      {"masterCode": 1949, "regionalCode": 1203, "noOfHires": 100, "hiringYear": 2016, "region": "Karnataka", "campusType": "Engineering", "campusCateg": "Off Campus", "hiringDomain": "Turbo", "hiringSubdom": "Turbo Intern"},
+      {"masterCode": 1950, "regionalCode": 1203, "noOfHires": 100, "hiringYear": 2016, "region": "Karnataka", "campusType": "Engineering", "campusCateg": "Off Campus", "hiringDomain": "Turbo", "hiringSubdom": "Turbo Intern"},
+      {"masterCode": 1951, "regionalCode": 1203, "noOfHires": 100, "hiringYear": 2016, "region": "Karnataka", "campusType": "Engineering", "campusCateg": "Off Campus", "hiringDomain": "Turbo", "hiringSubdom": "Turbo Intern"},
+      {"masterCode": 1952, "regionalCode": 1203, "noOfHires": 100, "hiringYear": 2016, "region": "Karnataka", "campusType": "Engineering", "campusCateg": "Off Campus", "hiringDomain": "Turbo", "hiringSubdom": "Turbo Intern"},
+      {"masterCode": 1953, "regionalCode": 1203, "noOfHires": 100, "hiringYear": 2016, "region": "Karnataka", "campusType": "Engineering", "campusCateg": "Off Campus", "hiringDomain": "Turbo", "hiringSubdom": "Turbo Intern"},
+      {"masterCode": 1954, "regionalCode": 1203, "noOfHires": 100, "hiringYear": 2016, "region": "Karnataka", "campusType": "Engineering", "campusCateg": "Off Campus", "hiringDomain": "Turbo", "hiringSubdom": "Turbo Intern"}
+    ]
+  },
+
+  "panelMobilizeData": {
+    "meta": {"total": 123},
+    "data": [
+      {"code": 4076, "id": 1231, "eventName": "Event ABC", "instituteName": "Wipro", "region": "Karnataka", "eventDate": "27 Nov 17", "eventType": "Non engineering", "hiringDomain": "WASE", "eventCategory": "Single Campus Event"},
+      {"code": 4076, "id": 1232, "eventName": "Event ABC", "instituteName": "Wipro", "region": "Karnataka", "eventDate": "27 Nov 17", "eventType": "Non engineering", "hiringDomain": "WASE", "eventCategory": "Single Campus Event"},
+      {"code": 4076, "id": 1233, "eventName": "Event ABC", "instituteName": "Wipro", "region": "Karnataka", "eventDate": "27 Nov 17", "eventType": "Non engineering", "hiringDomain": "WASE", "eventCategory": "Single Campus Event"},
+      {"code": 4076, "id": 1234, "eventName": "Event ABC", "instituteName": "Wipro", "region": "Karnataka", "eventDate": "27 Nov 17", "eventType": "Non engineering", "hiringDomain": "WASE", "eventCategory": "Single Campus Event"},
+      {"code": 4076, "id": 1235, "eventName": "Event ABC", "instituteName": "Wipro", "region": "Karnataka", "eventDate": "27 Nov 17", "eventType": "Non engineering", "hiringDomain": "WASE", "eventCategory": "Single Campus Event"},
+      {"code": 4076, "id": 1236, "eventName": "Event ABC", "instituteName": "Wipro", "region": "Karnataka", "eventDate": "27 Nov 17", "eventType": "Non engineering", "hiringDomain": "WASE", "eventCategory": "Single Campus Event"},
+      {"code": 4076, "id": 1237, "eventName": "Event ABC", "instituteName": "Wipro", "region": "Karnataka", "eventDate": "27 Nov 17", "eventType": "Non engineering", "hiringDomain": "WASE", "eventCategory": "Single Campus Event"},
+      {"code": 4076, "id": 1238, "eventName": "Event ABC", "instituteName": "Wipro", "region": "Karnataka", "eventDate": "27 Nov 17", "eventType": "Non engineering", "hiringDomain": "WASE", "eventCategory": "Single Campus Event"},
+      {"code": 4076, "id": 1239, "eventName": "Event ABC", "instituteName": "Wipro", "region": "Karnataka", "eventDate": "27 Nov 17", "eventType": "Non engineering", "hiringDomain": "WASE", "eventCategory": "Single Campus Event"},
+      {"code": 4076, "id": 1240, "eventName": "Event ABC", "instituteName": "Wipro", "region": "Karnataka", "eventDate": "27 Nov 17", "eventType": "Non engineering", "hiringDomain": "WASE", "eventCategory": "Single Campus Event"}
+    ]
+  },
+
+  "eventsList": {
+    "meta": {"total": 123},
+    "data": [
+      {"id":1231,"eventName":"Name ABC","eventDays":2,"venueName":"NameLorem","venueAddress":"AddressLorem","region":"Karnataka","startDate":"27 Nov 17","collegeName":"CollegeNameLorem","eventDate":"27 Nov 17","location":"Bangalore","regionalJobCode":1140,"eventType":"Engineering"},
+      {"id":1232,"eventName":"Name ABC","eventDays":2,"venueName":"NameLorem","venueAddress":"AddressLorem","region":"Karnataka","startDate":"27 Nov 17","collegeName":"CollegeNameLorem","eventDate":"27 Nov 17","location":"Bangalore","regionalJobCode":1140,"eventType":"Engineering"},
+      {"id":1233,"eventName":"Name ABC","eventDays":2,"venueName":"NameLorem","venueAddress":"AddressLorem","region":"Karnataka","startDate":"27 Nov 17","collegeName":"CollegeNameLorem","eventDate":"27 Nov 17","location":"Bangalore","regionalJobCode":1140,"eventType":"Engineering"},
+      {"id":1234,"eventName":"Name ABC","eventDays":2,"venueName":"NameLorem","venueAddress":"AddressLorem","region":"Karnataka","startDate":"27 Nov 17","collegeName":"CollegeNameLorem","eventDate":"27 Nov 17","location":"Bangalore","regionalJobCode":1140,"eventType":"Non Engineering"},
+      {"id":1235,"eventName":"Name ABC","eventDays":2,"venueName":"NameLorem","venueAddress":"AddressLorem","region":"Karnataka","startDate":"27 Nov 17","collegeName":"CollegeNameLorem","eventDate":"27 Nov 17","location":"Bangalore","regionalJobCode":1140,"eventType":"Non Engineering"},
+      {"id":1236,"eventName":"Name ABC","eventDays":2,"venueName":"NameLorem","venueAddress":"AddressLorem","region":"Karnataka","startDate":"27 Nov 17","collegeName":"CollegeNameLorem","eventDate":"27 Nov 17","location":"Bangalore","regionalJobCode":1140,"eventType":"Engineering"},
+      {"id":1237,"eventName":"Name ABC","eventDays":2,"venueName":"NameLorem","venueAddress":"AddressLorem","region":"Karnataka","startDate":"27 Nov 17","collegeName":"CollegeNameLorem","eventDate":"27 Nov 17","location":"Bangalore","regionalJobCode":1140,"eventType":"Engineering"},
+      {"id":1238,"eventName":"Name ABC","eventDays":2,"venueName":"NameLorem","venueAddress":"AddressLorem","region":"Karnataka","startDate":"27 Nov 17","collegeName":"CollegeNameLorem","eventDate":"27 Nov 17","location":"Bangalore","regionalJobCode":1140,"eventType":"Engineering"},
+      {"id":1239,"eventName":"Name ABC","eventDays":2,"venueName":"NameLorem","venueAddress":"AddressLorem","region":"Karnataka","startDate":"27 Nov 17","collegeName":"CollegeNameLorem","eventDate":"27 Nov 17","location":"Bangalore","regionalJobCode":1140,"eventType":"Non Engineering"},
+      {"id":1240,"eventName":"Name ABC","eventDays":2,"venueName":"NameLorem","venueAddress":"AddressLorem","region":"Karnataka","startDate":"27 Nov 17","collegeName":"CollegeNameLorem","eventDate":"27 Nov 17","location":"Bangalore","regionalJobCode":1140,"eventType":"Non Engineering"}
+    ]
+  },
+
+  "events": {
+    "meta": {"total": 123},
+    "data": [
+      {"id": "123", "name": "Event name 32", "active": false, "status": "create"},
+      {"id": "124", "name": "Event name 14", "active": false, "status": "create"},
+      {"id": "125", "name": "Event name 70", "active": true, "status": "approved"},
+      {"id": "126", "name": "Event name 19", "active": true, "status": "approved"},
+      {"id": "127", "name": "Event name 40", "active": false, "status": "rejected"}
+    ]
+  },
+  "eventDetails": {
+    "candidates": [
+      {"field": "Registered", "value": "99"},
+      {"field": "Boarding pass", "value": "50"},
+      {"field": "Wait to be screened", "value": "20"},
+      {"field": "Interview stage" , "value": "12"},
+      {"field": "Selected", "value": "99"},
+      {"field": "Dropped", "value": "99"},
+      {"field": "Not attend the event", "value": "50"},
+      {"field": "Got LOI", "value": "20"},
+      {"field": "Accepted" , "value": "12"},
+      {"field": "Rejected", "value": "99"}
+    ],
+    "eveniment": [
+      {"field": "Event ID", "value": "8458"},
+      {"field": "Regional Job Code", "value": "1147", "tooltip": [
+        {"label": "Master Job Code", "value": "1945"},
+        {"label": "Regional Job Code", "value": "1203"},
+        {"label": "No. of Hires", "value": "100"},
+        {"label": "Hiring Year", "value": "2016"},
+        {"label": "Region", "value": "Karnataka"},
+        {"label": "Campus Type", "value": "Engineering"},
+        {"label": "Campus Category", "value": "Off Campus"},
+        {"label": "Hiring Domain", "value": "Turbo"},
+        {"label": "Hiring Subdomain", "value": "Turbo Intern"}
+      ]},
+      {"field": "Institue Name", "value": "BIET"},
+      {"field": "Hiring Domain", "value": "Star"},
+      {"field": "Hiring Subdomain", "value": "--"},
+      {"field": "Event Date", "value": "31 July 2017"},
+      {"field": "Event Type", "value": "Engineering"},
+      {"field": "Region", "value": "Kamataka"},
+      {"field": "Event Category", "value": "Single"}
+    ]
+  },
+  "colleges": {
+    "meta": {"total": 123},
+    "data": [
+      {"id": "123", "name": "NameLorem ipsum", "status": "pending", "date": "25 July 2017", "sendMail": false, "type":"Engineering","institueName":"College NameLorem ipsum","personalName":"John Doe","address":"123 Road Name Lorem Rd","state":"Karnataka","city":"Bangalore","phone":["(+91) 1234-567890","(+91) 1234-567890"],"registerDate":"25 July 2017  09:30 am"},
+      {"id": "124", "name": "NameLorem ipsum", "status": "pending", "date": "25 July 2017", "sendMail": true, "type":"Engineering","institueName":"College NameLorem ipsum","personalName":"John Doe","address":"123 Road Name Lorem Rd","state":"Karnataka","city":"Bangalore","phone":["(+91) 1234-567890","(+91) 1234-567890"],"registerDate":"25 July 2017  09:30 am"},
+      {"id": "125", "name": "NameLorem ipsum", "status": "pending", "date": "25 July 2017", "sendMail": false, "type":"Engineering","institueName":"College NameLorem ipsum","personalName":"John Doe","address":"123 Road Name Lorem Rd","state":"Karnataka","city":"Bangalore","phone":["(+91) 1234-567890","(+91) 1234-567890"],"registerDate":"25 July 2017  09:30 am"},
+      {"id": "126", "name": "NameLorem ipsum", "status": "pending", "date": "25 July 2017", "sendMail": true, "type":"Engineering","institueName":"College NameLorem ipsum","personalName":"John Doe","address":"123 Road Name Lorem Rd","state":"Karnataka","city":"Bangalore","phone":["(+91) 1234-567890","(+91) 1234-567890"],"registerDate":"25 July 2017  09:30 am"},
+      {"id": "127", "name": "NameLorem ipsum", "status": "pending", "date": "25 July 2017", "sendMail": false, "type":"Engineering","institueName":"College NameLorem ipsum","personalName":"John Doe","address":"123 Road Name Lorem Rd","state":"Karnataka","city":"Bangalore","phone":["(+91) 1234-567890","(+91) 1234-567890"],"registerDate":"25 July 2017  09:30 am"}
+    ]
+  },
+  "emPanelData": [
+    { "title": "Institute Profile", "progress": 20, "icon": "./i/icons/em-institute-icon.png", "url": "/cpc/empanelment-form/institute-profile" },
+    { "title": "Quantitative Details", "progress": 10, "icon": "./i/icons/em-qdetails-icon.png", "url": "/cpc/empanelment-form/quantitative-details" },
+    { "title": "Faculty Details", "progress": 30, "icon": "./i/icons/em-faculty-icon.png", "url": "/cpc/empanelment-form/faculty-details" },
+    { "title": "Student Details", "progress": 90, "icon": "./i/icons/em-student-icon.png", "url": "/cpc/empanelment-form/student-details" },
+    { "title": "Placement Details", "progress": 1, "icon": "./i/icons/em-placement-icon.png", "url": "/cpc/empanelment-form/placement-details" }
+  ],
+  "detailsFullData": [
+    { "title": "Event ID", "value": "8458" },
+    { "title": "Event Type", "value": "Engineering" },
+    { "title": "Job Code", "value": "1147" },
+    { "title": "Hiring Domain", "value": "Star" },
+    { "title": "Hiring Subdomain", "value": "--" },
+    { "title": "Hiring Year", "value": 2015 },
+    { "title": "Campus Region", "value": "Kamataka" },
+    { "title": "Location", "value": "Bangalore" },
+    { "title": "Vendor Name", "value": "BIET" },
+    { "title": "Venue Address", "value": "ECBangalore" },
+    { "title": "Vendor ID", "value": "BIET" }
+  ],
+  "detailsLeftCol": [
+    { "title": "Event ID", "value": "8458" },
+    { "title": "Event Type", "value": "Engineering" },
+    { "title": "Job Code", "value": "1147" },
+    { "title": "Hiring Domain", "value": "Star" },
+    { "title": "Hiring Subdomain", "value": "--" },
+    { "title": "Hiring Year", "value": 2017 },
+    { "title": "Campus Region", "value": "Kamataka" },
+    { "title": "Location", "value": "Bangalore" }
+  ],
+  "detailsMiddleCol": [
+    { "title": "Venue Name", "value": "BIET" },
+    { "title": "Venue Address", "value": "ECBangalore" },
+    { "title": "Venue Name", "value": "BIET" },
+    { "title": "Vendor ID", "value": "--" }
+  ],
+  "evtDetailsLeftCol": [
+    { "title": "Event ID", "value": "8458" },
+    { "title": "Hiring Domain", "value": "Star" },
+    { "title": "Event Type", "value": "Engineering" },
+    { "title": "Venue Name", "value": "BIET" },
+    { "title": "Campus Region", "value": "Kamataka" },
+    { "title": "Hiring Year", "value": 2017 }
+  ],
+  "evtDetailsMiddleCol": [
+    { "title": "Job Code", "value": "1147", "info": true },
+    { "title": "Hiring Subdomain", "value": "--" },
+    { "title": "Event Category", "value": "Single" },
+    { "title": "Venue Address", "value": "ECBangalore" },
+    { "title": "Location", "value": "Bangalore" },
+    { "title": "Vendor ID", "value": "--" }
+  ],
+  "timingsLeftCol": [
+    { "title": "Reporting Timings", "value": "10:00" },
+    { "title": "Test Timings", "value": "11:00" },
+    { "title": "Event Date", "value": "31 May 2017" },
+    { "title": "Registration Start Date", "value": "30 May 2017" }
+  ],
+  "timingsRightCol": [
+    { "title": "Event Days", "value": 3 },
+    { "title": "Day Slot", "value": 2 },
+    { "title": "Day Slot Type", "value": "Exclusive" },
+    { "title": "Registration End Date", "value": "30 May 2017" }
+  ],
+  "timingsData": [
+    { "title": "Reporting Timings", "value": "10:00" },
+    { "title": "Test Timings", "value": "11:00" },
+    { "title": "Event Date", "value": "31 May 2017" },
+    { "title": "Event Days", "value": 3 },
+    { "title": "Registration Start Date", "value": "30 May 2017" },
+    { "title": "Registration End Date", "value": "30 May 2017" },
+    { "title": "Day Slot", "value": 2 },
+    { "title": "Day Slot Type", "value": "Exclusive" }
+  ],
+  "facilitiesRequiredLeftCol": [
+    { "title": "No. of System(s) Available", "value": 200 },
+    { "title": "No. of HR Panels Required", "value": 2 },
+    { "title": "Overrall Expected Footfall", "value": 200 },
+    { "title": "No. of Technical / Voice Assessment Panel Required", "value": 2 }
+  ],
+  "facilitiesRequiredRightCol": [
+    { "title": "CPM Selected", "value": [
+      {
+        "img": "./i/avatars/jane_doe.png",
+        "text": "Jane Doe"
+      },
+      {
+        "img": "./i/avatars/jane_doe.png",
+        "text": "Jane Doe"
+      }
+    ] }
+  ],
+  "navRoutes": [
+    {"title": "Home", "url": "/"},
+    {"title": "Empanel Form", "url": "/cpc/empanelment-form/institute-profile"}
+  ],
+  "notifications": [
+    {"text": "You have new Boarding Pass [ Event NameXXX, ID 1234  ]", "date": "19 August", "action": {"title": "View", "url": "/candidate/boarding-pass"}},
+    {"text": "You have <a href=\"\">new LOI</a>  [ Topper Selected ]", "date": "19 August", "action": {"title": "View", "url": ""}},
+    {"text": "You have new Boarding Pass [ Event NameXXX, ID 1234  ]", "date": "19 August", "action": {"title": "View", "url": ""}},
+    {"text": "You have <a href=\"\">new LOI</a>  [ Topper Selected ]", "date": "19 August", "action": {"title": "View", "url": ""}},
+    {"text": "You have new Boarding Pass [ Event NameXXX, ID 1234  ]", "date": "19 August", "action": {"title": "View", "url": ""}},
+    {"text": "You have <a href=\"\">new LOI</a>  [ Topper Selected ]", "date": "19 August", "action": {"title": "View", "url": ""}}
+  ],
+  "newsItems": [
+    {
+      "title": "Lorem ipsum dolor",
+      "date": "19 August",
+      "text": "Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor. Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor.",
+      "image": "./i/news-thumbnail.png",
+      "url": ""
+    },
+    {
+      "title": "Lorem ipsum dolor",
+      "date": "19 August",
+      "text": "Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor. Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor.",
+      "image": "./i/news-thumbnail.png",
+      "url": ""
+    },
+    {
+      "title": "Lorem ipsum dolor",
+      "date": "19 August",
+      "text": "Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor. Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor.",
+      "image": "./i/news-thumbnail.png",
+      "url": ""
+    },
+    {
+      "title": "Lorem ipsum dolor",
+      "date": "19 August",
+      "text": "Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor. Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor.",
+      "image": "./i/news-thumbnail.png",
+      "url": ""
+    },
+    {
+      "title": "Lorem ipsum dolor",
+      "date": "19 August",
+      "text": "Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor. Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor.",
+      "image": "./i/news-thumbnail.png",
+      "url": ""
+    },
+    {
+      "title": "Lorem ipsum dolor",
+      "date": "19 August",
+      "text": "Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor. Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor.",
+      "image": "./i/news-thumbnail.png",
+      "url": ""
+    },
+    {
+      "title": "Lorem ipsum dolor",
+      "date": "19 August",
+      "text": "Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor. Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor.",
+      "image": "./i/news-thumbnail.png",
+      "url": ""
+    }
+  ],
+  "videoItems": [
+    {
+      "title": "Praesent scelerisque eu lectus non congue.",
+      "uploader": "Lorem ispum",
+      "date": "19 August",
+      "text": "Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor.",
+      "image": "./i/video-thumbnail.png",
+      "duration": 80,
+      "url": ""
+    },
+    {
+      "title": "Praesent scelerisque eu lectus non congue.",
+      "uploader": "Lorem ispum",
+      "date": "19 August",
+      "text": "Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor.",
+      "image": "./i/video-thumbnail.png",
+      "duration": 18246,
+      "url": ""
+    },
+    {
+      "title": "Praesent scelerisque eu lectus non congue.",
+      "uploader": "Lorem ispum",
+      "date": "19 August",
+      "text": "Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor.",
+      "image": "./i/video-thumbnail.png",
+      "duration": 18246,
+      "url": ""
+    }
+  ],
+  "landingHero": {
+    "title": ["Welcome to Campus", "Recruitment Web Application"],
+    "content": "Empanelment Form Instruction Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium volutpat suscipit. Praesent malesuada consequat finibus. Etiam eleifend purus ac rutrum tincidunt. Aliquam dignissim mauris elit, et egestas ligula sodales eget. Curabitur at diam malesuada, venenatis neque non, vehicula purus. Nunc vulputate, ante vel luctus molestie, orci erat eleifend quam, a accumsan sapien neque id mi. Proin venenatis bibendum ex eget sagittis.",
+    "link": {
+      "title": "Register your college",
+      "url": "/cpc/college-register"
+    }
+  },
+  "candidateOnboarding": {
+    "title": "Candidate Application",
+    "intro": "Welcome to your desktop. This application will help you manage your profile on an ongoing basic. You can update your resume and apply to a new job using your existing resume with out re-enting the same.",
+    "content": "Updating your resume on regular basic will help you find a job faster. You will get the stsatus of your application on-line. You can also confirm/reschedule your interview and give us feedback on the hiring process. A section on \"getting started\" has been included to enable you to understand the system better. Do contact us through the helpdesk, if you have any clarifications."
+  },
+  "cpcHero": {
+    "title": "Candidates",
+    "registered": 99,
+    "interviewed": 80,
+    "selected": 50,
+    "dropped": 30
+  },
+  "lcmHero": {
+    "pendingJobCodes": 40,
+    "colleges": {
+      "registeredToday": 5,
+      "waitingApproval": 10,
+      "approved": 99,
+      "rejected": 99
+    },
+    "events": {
+      "registeredToday": 5,
+      "waitingApproval": 10,
+      "approved": 99,
+      "rejected": 99
+    },
+    "linkUrl": "/components"
+  },
+  "available_departments": [
+    "Engineering",
+    "Non Engineering",
+    "ONSITE",
+    "Walkin"
+  ],
+  "facilitiesRequiredForm":{
+    "selectedCpm": [
+      {
+        "id": "1",
+        "img": "./i/avatars/jane_doe.png",
+        "text": "Jane Doe"
+      }
+    ]
+  },
+  "boardingPass": {
+    "avatar": "./i/avatars/john_doe.png",
+    "barcode": "./i/barcode.png",
+    "mailto": "test@test.com",
+    "list":[{
+      "label": "Registration Number",
+      "value": "542473"
+    },{
+      "label": "Name",
+      "value": "John Doe"
+    },{
+      "label": "Date of Birth",
+      "value": "18-07-1991"
+    },{
+      "label": "Email ID",
+      "value": "john@email.com"
+    },{
+      "label": "College Name",
+      "value": "EB/Btech - Computer Science"
+    },{
+      "label": "Event ID",
+      "value": "8251"
+    },{
+      "label": "Event Name",
+      "value": "EngTest1"
+    },{
+      "label": "Event Venue",
+      "value": "JNNCE - dafewageag"
+    },{
+      "label": "Event Date",
+      "value": "28-May-2017"
+    },{
+      "label": "Registration Time",
+      "value": "None"
+    }],
+    "signature": "./i/signature.png",
+    "gdTest": "Cleared",
+    "techInterview": "Selected",
+    "hrInterview": "Selected"
+  },
+  "eventTimingsForm": {
+    "options": {
+      "details": ["details 1", "details 2", "details 3"],
+      "eventDays": ["10", "20", "30"],
+      "slotDay": ["10", "20", "30"],
+      "slotType": ["Exclusive", "Inclusive"]
+    }
+  },
+  "hiringDomains": [
+    "Domain 1",
+    "Domain 2",
+    "Domain 3"
+  ],
+  "progressBreadcrumb": {
+    "steps": [{"title": "JOB CODE"}, {"title":"EVENT DETAILS"}, {"title":"SELECT COLLEGES"}, {"title":"SUMMARY"}],
+    "stepsSingle": [{"title": "JOB CODE"}, {"title":"EVENT DETAILS"}, {"title":"SUMMARY"}]
+  },
+  "upcomingEventLeftCol": [
+    { "title": "Event Type", "value": "Engineering" },
+    { "title": "Campus Region", "value": "Kamataka" },
+    { "title": "Venue Name", "value": "BIET" },
+    { "title": "Venue Address", "value": "ECbangalore" },
+    { "title": "Event Date", "value": "31 May 2017 <span class='days'>(3 Days)</span>" },
+    { "title": "Event Registration End Date", "value": "30 May 2017" }
+  ],
+  "ListOfColleges": [
+    "CollegeName",
+    "CollegeName",
+    "CollegeName",
+    "CollegeName",
+    "CollegeName",
+    "CollegeName",
+    "CollegeName",
+    "CollegeName",
+    "CollegeName",
+    "CollegeName",
+    "CollegeName"
+  ],
+  "available_examinations": [
+    "exam 1",
+    "exam 2",
+    "exam 3"
+  ],
+  "empanelData": {
+    "progress": [
+      { "title": "Institute Profile", "progress": 25, "icon": "/i/icons/em-institute-icon.png", "url": "/" },
+      { "title": "Quantitative Details", "progress": 35, "icon": "/i/icons/em-qdetails-icon.png", "url": "/" },
+      { "title": "Faculty Details", "progress": 10, "icon": "/i/icons/em-faculty-icon.png", "url": "/" },
+      { "title": "Student Details", "progress": 70, "icon": "/i/icons/em-student-icon.png", "url": "/" },
+      { "title": "Placement Details", "progress": 85, "icon": "/i/icons/em-placement-icon.png", "url": "/" }
+    ]
+  },
+  "facultyDetailsPage": {
+    "progress": [
+      { "title": "Institute Profile", "progress": 100, "icon": "/i/icons/em-institute-icon.png", "url": "/" },
+      { "title": "Quantitative Details", "progress": 100, "icon": "/i/icons/em-qdetails-icon.png", "url": "/" },
+      { "title": "Faculty Details", "progress": 10, "icon": "/i/icons/em-faculty-icon.png", "url": "/" },
+      { "title": "Student Details", "progress": 0, "icon": "/i/icons/em-student-icon.png", "url": "/" },
+      { "title": "Placement Details", "progress": 0, "icon": "/i/icons/em-placement-icon.png", "url": "/" }
+    ]
+  },
+  "searchJobCode": {
+    "alert": "Instruction Duis pharetra lacinia erat sed tempor. Nullam nec cursus massa. Nullam convallis sodales sem, id interdum tellus. Vivamus lorem urna, mattis sed lectus placerat, tincidunt laoreet dui.",
+    "leftCol": [
+      { "title": "Regional Job Code ", "value": 1203 },
+      { "title": "Hiring Domain ", "value": "Turbo" },
+      { "title": "Hiring Subdomain ", "value": "Turbo Intern" },
+      { "title": "Hiring Year ", "value": 2016 }
+    ],
+    "rightCol": [
+      { "title": "Campus Type ", "value": "Engineering" },
+      { "title": "Campus Category ", "value": "Turbo" },
+      { "title": "Hiring Subdomain ", "value": "Off Campus" }
+    ]
+  },
+  "candidNewsItems": [
+    {
+      "title": "Lorem ipsum dolor",
+      "date": "19 August",
+      "text": "Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor.",
+      "image": "/i/news-thumbnail.png",
+      "url": ""
+    },
+    {
+      "title": "Lorem ipsum dolor",
+      "date": "19 August",
+      "text": "Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor.",
+      "image": "/i/news-thumbnail.png",
+      "url": ""
+    },
+    {
+      "title": "Lorem ipsum dolor",
+      "date": "19 August",
+      "text": "Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor.",
+      "image": "/i/news-thumbnail.png",
+      "url": ""
+    },
+    {
+      "title": "Lorem ipsum dolor",
+      "date": "19 August",
+      "text": "Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor.",
+      "image": "/i/news-thumbnail.png",
+      "url": ""
+    },
+    {
+      "title": "Lorem ipsum dolor",
+      "date": "19 August",
+      "text": "Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor.",
+      "image": "/i/news-thumbnail.png",
+      "url": ""
+    },
+    {
+      "title": "Lorem ipsum dolor",
+      "date": "19 August",
+      "text": "Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor.",
+      "image": "/i/news-thumbnail.png",
+      "url": ""
+    }
+  ],
+  "candidNotifications": [
+    {"text": "You have new Boarding Pass [ Event NameXXX, ID 1234  ]", "date": "19 August", "action": {"title": "View", "url": "/candidate/boarding-pass"}},
+    {"text": "You have <a href=\"\">new LOI</a>  [ Topper Selected ]", "date": "20 August", "action": {"title": "Upload Doc", "url": ""}},
+    {"text": "You have <a href=\"\">new LOI</a>  [ Employment offer approved ]", "date": "21 August", "action": {"title": "View Offer", "url": ""}},
+    {"text": "You have joining location [Lorem ipsum dolor]", "date": "22 August", "action": {"title": "View Details", "url": ""}},
+    {"text": "You have new Boarding Pass [ Event NameXXX, ID 1234  ]", "date": "19 August", "action": {"title": "View", "url": ""}},
+    {"text": "You have <a href=\"\">new LOI</a>  [ Topper Selected ]", "date": "19 August", "action": {"title": "View", "url": ""}},
+    {"text": "You have <a href=\"\">new LOI</a>  [ Topper Selected ]", "date": "19 August", "action": {"title": "View", "url": ""}},
+    {"text": "You have new Boarding Pass [ Event NameXXX, ID 1234  ]", "date": "19 August", "action": {"title": "View", "url": ""}}
+  ],
+
+  "offerStack": {
+    "resumeData": {
+      "id": 542464,
+      "domain": "ICWA",
+      "email": "john@email.com",
+      "eventType": "Engineering",
+      "college": "dfg",
+      "eventId": 8251
+    },
+
+    "salaryStack": [
+      {"component": "Basic", "value": "15,320"},
+      {"component": "HRA", "value": "7,700"},
+      {"component": "Communitation", "value": "1,600"},
+      {"component": "Bonus", "value": "1,400"},
+      {"component": "Additional Allowance"},
+      {"component": "FP (12% of Basic)", "value": "1,840"},
+      {"component": "Gratuity (5.31% of Basic)", "value": "814"},
+      {"component": "Total Fixed Compensation", "value": "40,960"},
+      {"component": "Other COmpensation Benefits"},
+      {"component": "Health benefit (Medical)", "value": "600"},
+      {"component": "Variable Pay"},
+      {"component": "Target OQLC (5% of CTC)", "value": "2,190"},
+      {"component": "Target Cost to Company per month", "value": "43,750"},
+      {"component": "Total Cost to Company per annum"}
+    ],
+
+    "intro": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in molestie risus. Fusce aliquam eget justo quis efficitur. Mauris convallis magna at condimentum laoreet. Nullam eu mattis odio. Sed accumsan vel mi et venenatis. Duis consectetur lacinia tellus a mollis. Fusce eget sagittis est, eget posuere orci. Donec lacinia tortor sed diam sodales, eu varius augue viverra. Sed orci ipsum, iaculis ut tempor ut, faucibus non eros. Ut egestas justo eu odio aliquam, sed finibus nisi viverra. Proin elit leo, suscipit et fermentum sed, consectetur in enim. Praesent eu viverra eros.</p><p>Nunc viverra faucibus tellus, id lobortis est ornare a. Nunc elementum dui id augue varius, vitae cursus dolor tincidunt. Phasellus vel aliquam risus, eu faucibus sem. Fusce vel ex gravida, elementum turpis nec, venenatis nibh. Integer et dui sit amet augue rhoncus ultrices. Mauris auctor eget arcu quis venenatis. Donec imperdiet mi quam, in malesuada nunc scelerisque nec. Aliquam varius ligula eget venenatis vehicula.</p><p>Quisque sollicitudin purus turpis, vel finibus lectus posuere eu. Morbi et euismod erat, vitae maximus nisl. Nunc in massa vitae ante posuere rhoncus vitae non lacus. Morbi tempus dolor feugiat mi cursus aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed volutpat urna sit amet nisi malesuada iaculis. Nulla fermentum mollis nulla, quis dignissim odio rhoncus id. Donec facilisis maximus ligula eu faucibus.</p>"
+  },
+  "unifiedForm": {
+    "steps": [{"title": "Personal Information"}, {"title": "Education Details"}, {"title": "Previous Employment Details"}, {"title":"Additional Details"}, {"title":"Declaration"}, {"title":"Upload Document"}],
+    "addressOptions": {
+      "state": ["state 1", "state 2", "state 3"],
+      "city": ["city 1", "city 2", "city 3"]
+    },
+    "branches": [
+      "Branch 1",
+      "Branch 2",
+      "Branch 3",
+      "Branch 4"
+    ],
+    "courses": [
+      "Course 1",
+      "Course 2",
+      "Course 3",
+      "Course 4"
+    ],
+    "intro": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla magna lacus, laoreet quis magna at, mattis iaculis elit. Aenean ex justo, consectetur sit amet lacus id, euismod venenatis orci. In nec sapien nec purus tincidunt eleifend eget ut nisl. Ut tempor nisi semper magna efficitur vehicula. ",
+      "videos": [{
+        "name": "How to Get Started?",
+        "duration": "3:05"
+      }, {
+        "name": "Lorem Ipsum Dolor",
+        "duration": "5:06"
+      }, {
+        "name": "Registration Process",
+        "duration": "2:50"
+      }, {
+        "name": "Dolor Magna Aliqua",
+        "duration": "3:26"
+      }, {
+        "name": "Conseqtetur Adipiscing Elit",
+        "duration": "2:45"
+      }]
+    }
+  },
+  "jobCodeAlert": "Instruction Duis pharetra lacinia erat sed tempor. Nullam nec cursus massa. Nullam convallis sodales sem, id interdum tellus. Vivamus lorem urna, mattis sed lectus placerat, tincidunt laoreet dui.",
+  "selectCollegeAlert": "Instruction Duis pharetra lacinia erat sed tempor. Nullam nec cursus massa. Nullam convallis sodales sem, id interdum tellus. Vivamus lorem urna, mattis sed lectus placerat, tincidunt laoreet dui.",
+
+
+  "createEvent": {
+    "steps": ["JOB CODE", "EVENT DETAILS", "SUMMARY"],
+    "searchJobCode": {
+      "alert": "Instruction Duis pharetra lacinia erat sed tempor. Nullam nec cursus massa. Nullam convallis sodales sem, id interdum tellus. Vivamus lorem urna, mattis sed lectus placerat, tincidunt laoreet dui.",
+      "leftCol": [
+        { "title": "Regional Job Code ", "value": 1203 },
+        { "title": "Hiring Domain ", "value": "Turbo" },
+        { "title": "Hiring Subdomain ", "value": "Turbo Intern" },
+        { "title": "Hiring Year ", "value": 2016 }
+      ],
+      "rightCol": [
+        { "title": "Campus Type ", "value": "Engineering" },
+        { "title": "Campus Category ", "value": "Turbo" },
+        { "title": "Hiring Subdomain ", "value": "Off Campus" }
+      ]
+    },
+    "detailsOptions": {
+      "colleges": ["College_A", "Anna", "Bms"],
+      "venueName": ["Venue Name 1", "Venue Name 2"]
+    },
+    "details": {
+    },
+    "timings": {},
+    "facilities": {}
+  },
+
+  "cpmSearch": {
+    "meta": {"total": 25},
+    "data": [
+      {"id": "1", "employee": "12345", "email": "name@email.com", "img": "/i/avatars/jane_doe.png", "text": "Jane Doe"},
+      {"id": "2", "employee": "12345", "email": "name@email.com", "img": "/i/avatars/jane_doe.png", "text": "Jane Doe"},
+      {"id": "3", "employee": "12345", "email": "name@email.com", "img": "/i/avatars/jane_doe.png", "text": "Jane Doe"},
+      {"id": "4", "employee": "12345", "email": "name@email.com", "img": "/i/avatars/jane_doe.png", "text": "Jane Doe"},
+      {"id": "5", "employee": "12345", "email": "name@email.com", "img": "/i/avatars/jane_doe.png", "text": "Jane Doe"}
+    ]
+  },
+
+  "eventSummary": {
+    "searchJobCode": [
+      { "title": "Regional Job Code ", "value": 1203 },
+      { "title": "Hiring Domain ", "value": "Turbo" },
+      { "title": "Hiring Subdomain ", "value": "Turbo Intern" },
+      { "title": "Hiring Year ", "value": 2016 },
+      { "title": "Campus Type ", "value": "Engineering" },
+      { "title": "Campus Category ", "value": "Turbo" },
+      { "title": "Hiring Subdomain ", "value": "Off Campus" }
+    ],
+    "eventDetails": [
+      {"title": "Event Name", "value": "NameLorem"},
+      {"title": "Campus Event Type", "value": "Single"},
+      {"title": "Venue Name", "value": "BIET"},
+      {"title": "Venue Address", "value": "BIET"},
+      {"title": "Campus Region", "value": "Kamataka"},
+      {"title": "Location", "value": "Bangalore"},
+      {"title": "Education Details", "value": "UG"}
+    ],
+    "eventTimings": [
+      {"title": "Reporting timings", "value": "11:00"},
+      {"title": "Test Timing", "value": "11:10"},
+      {"title": "Event Date", "value": "31 Aug 2017"},
+      {"title": "Registration End Date", "value": "30 Aug 2017"},
+      {"title": "Event Days", "value": "3"},
+      {"title": "Day Slot", "value": "2 Exclusive"}
+    ],
+    "facilities": {
+      "required": [
+        {"title": "No. of System(s) Available", "value": 200},
+        {"title": "Overall Expected Footfall", "value": 200},
+        {"title": "No. of HR Panels Required", "value": 2},
+        {"title": "No. of Techical Panels Required", "value": 2}
+      ],
+      "cpm": [
+        {"id": "1", "avatar": "/i/avatars/jane_doe.png", "name": "Jane Doe"},
+        {"id": "2", "avatar": "/i/avatars/jane_doe.png", "name": "Jane Doe"}
+      ]
+    },
+    "colleges": [
+      {"title": "Master College", "values": ["College_A", "College_B", "College_C"]},
+      {"title": "Sub Colleges", "values": ["Anna","Bms","Deeshu"]}
+    ]
+  },
+
+  "editEvent": {
+    "eventName": "Event Name Lorem",
+    "searchJobCode": {
+      "leftCol": [
+        { "title": "Regional Job Code ", "value": 1203 },
+        { "title": "Hiring Domain ", "value": "Turbo" },
+        { "title": "Hiring Subdomain ", "value": "Turbo Intern" },
+        { "title": "Hiring Year ", "value": 2016 }
+      ],
+      "rightCol": [
+        { "title": "Campus Type ", "value": "Engineering" },
+        { "title": "Campus Category ", "value": "Turbo" },
+        { "title": "Hiring Subdomain ", "value": "Off Campus" }
+      ]
+    },
+    "details": {
+      "eventType": "single",
+      "valueName": "Venue Name Lorem ipsum",
+      "venueAddress": "Venue Address Lorem ipsum dolor sit amet 1234",
+      "campusRegion": "Kamataka",
+      "location": "Bangalore",
+      "domains": [{"domain": "Hiring Domain Lorem"}],
+      "colleges": {
+        "master": "College_A",
+        "sub": ["Anna", "Bms"]
+      }
+    },
+    "timings": {
+      "reportTime": "08:30",
+      "testTime": "09:30",
+      "eventDate": "04 - Oct - 2017",
+      "regEndDate": "04 - Oct - 2017",
+      "details": "Lorem Ipsum",
+      "eventDays": 10,
+      "slots": [{ "day": 20, "type": "Exclusive" }]
+    },
+    "facilities": {
+      "system": 100,
+      "footfall": 123,
+      "hr": 123,
+      "tech": 123
+    }
+  },
+
+  "openPositions": [
+    {
+      "details": [
+        { "title": "Stream", "value": ".NET" },
+        { "title": "Batch ID", "value": "777" },
+        { "title": "DOJ", "value": "29-AUG-2017" },
+        { "title": "Hiring Domain", "value": "ENG" }
+      ],
+      "positions": [
+        {"location": "BANGALORE", "open": 10, "selected": false},
+        {"location": "CHENNAI", "open": 12, "selected": false},
+        {"location": "HYDERABAD", "open": 8, "selected": false},
+        {"location": "GR NOIDA", "open": 10, "selected": false},
+        {"location": "PUNE", "open": 10, "selected": false},
+        {"location": "KOLKATA", "open": 10, "selected": false},
+        {"location": "COCHIN", "open": 10, "selected": false},
+        {"location": "COIMBATORE", "open": 10, "selected": false},
+        {"location": "BHUBANESHWAR", "open": 10, "selected": false}
+      ]
+    }, {
+      "details": [
+        { "title": "Stream", "value": "COREJAVA" },
+        { "title": "Batch ID", "value": "777" },
+        { "title": "DOJ", "value": "29-AUG-2017" },
+        { "title": "Hiring Domain", "value": "ENG" }
+      ],
+      "positions": [
+        {"location": "BANGALORE", "open": 10, "selected": false},
+        {"location": "CHENNAI", "open": 6, "selected": false},
+        {"location": "HYDERABAD", "open": 8, "selected": false},
+        {"location": "GR NOIDA", "open": 12, "selected": false},
+        {"location": "PUNE", "open": 10, "selected": false},
+        {"location": "KOLKATA", "open": 10, "selected": false},
+        {"location": "COCHIN", "open": 10, "selected": false},
+        {"location": "COIMBATORE", "open": 10, "selected": false},
+        {"location": "BHUBANESHWAR", "open": 10, "selected": false}
+      ]
+    }
+  ],
+
+  "branches": [
+    "Branch 1",
+    "Branch 2",
+    "Branch 3",
+    "Branch 4"
+  ],
+  "courses": [
+    "Course 1",
+    "Course 2",
+    "Course 3",
+    "Course 4"
+  ],
+ "helpDesk": {
+    "ref": "0000000",
+    "modules": [
+      "Module 1",
+      "Module 2",
+      "Module 3"
+    ],
+    "feedback": [
+      {
+        "ref": "0000000",
+        "lastUpdated": "Today 9.30am",
+        "status": "Opened",
+        "module": "NameLorem",
+        "topic": "TopName Lorem",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in molestie risus. Fusce aliquam eget justo quis efficitur."
+      },
+      {
+        "ref": "0000000",
+        "lastUpdated": "Today 9.30am",
+        "status": "Closed",
+        "module": "NameLorem",
+        "topic": "TopName Lorem",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in molestie risus. Fusce aliquam eget justo quis efficitur.",
+        "feedback": {
+          "user": {
+            "image": "/i/avatars/jane_doe.png",
+            "name": "HD"
+          },
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.",
+          "date": "Yesterday"
+        }
+      }
+    ]
+  },
+ "feedback": {
+    "eventData": [
+      {"title": "Campus Region", "value": "Kamataka"},
+      {"title": "Event Type", "value": "Engineering"},
+      {"title": "Venue Name", "value": "BIET"},
+      {"title": "Venue Address", "value": "ECbangalore"},
+      {"title": "Event Date", "value": "31 May 2017", "explain": "3 Days"}
+    ],
+    "questions": [
+      {
+        "feedQuestion": "QuestionLorem ipsum dolor sit amet, consectetur adipiscing elit ?"
+      },
+      {
+        "feedQuestion": "QuestionLorem ipsum dolor sit amet, consectetur adipiscing elit ?"
+      },
+      {
+        "feedQuestion": "QuestionLorem ipsum dolor sit amet, consectetur adipiscing elit ?"
+      },
+      {
+        "feedQuestion": "QuestionLorem ipsum dolor sit amet, consectetur adipiscing elit ?"
+      }
+    ]
+  },
+  "dashboardNcm": {
+    "colleges": {
+      "meta": {"total": 123},
+      "data": [
+        {"id": "4076", "name": "BIT", "score": "view", "status": "Pre Approved", "region": "Karnataka", "type": "Engineering", "institueName": "College NameLorem ipsum", "personalName": "John Doe", "address": "123 Road Name Lorem Rd", "state": "Karnataka", "city": "Bangalore", "phone": ["(+91) 1234-567890", "(+91) 1234-567890"], "registerDate": "25 July 2017  09:30 am"},
+        {"id": "4077", "name": "BMS", "score": "view", "status": "Pre Approved", "region": "Karnataka", "type": "Engineering", "institueName": "College NameLorem ipsum", "personalName": "John Doe", "address": "123 Road Name Lorem Rd", "state": "Karnataka", "city": "Bangalore", "phone": ["(+91) 1234-567890", "(+91) 1234-567890"], "registerDate": "25 July 2017  09:30 am"},
+        {"id": "4078", "name": "PA College", "score": "view", "status": "Pre Approved", "region": "Karnataka", "type": "Engineering", "institueName": "College NameLorem ipsum", "personalName": "John Doe", "address": "123 Road Name Lorem Rd", "state": "Karnataka", "city": "Bangalore", "phone": ["(+91) 1234-567890", "(+91) 1234-567890"], "registerDate": "25 July 2017  09:30 am"},
+        {"id": "4079", "name": "SDM College", "score": "view", "status": "Pre Approved", "region": "Karnataka", "type": "Engineering", "institueName": "College NameLorem ipsum", "personalName": "John Doe", "address": "123 Road Name Lorem Rd", "state": "Karnataka", "city": "Bangalore", "phone": ["(+91) 1234-567890", "(+91) 1234-567890"], "registerDate": "25 July 2017  09:30 am"},
+        {"id": "4080", "name": "PES", "score": "view", "status": "Pre Approved", "region": "Karnataka", "type": "Engineering", "institueName": "College NameLorem ipsum", "personalName": "John Doe", "address": "123 Road Name Lorem Rd", "state": "Karnataka", "city": "Bangalore", "phone": ["(+91) 1234-567890", "(+91) 1234-567890"], "registerDate": "25 July 2017  09:30 am"}
+      ]
+    },
+    "masterJobCode": {
+      "meta": {"total": 112},
+      "data": [
+        {"code": "1964", "campusType": "Engineering", "hires": 344, "domain": "Bu Hiring", "subdomain": "A & IM"},
+        {"code": "1965", "campusType": "Engineering", "hires": 344, "domain": "Engineering", "subdomain": "BAS-OEA"},
+        {"code": "1966", "campusType": "Engineering", "hires": 344, "domain": "Bu Hiring", "subdomain": "Engineering Regular"},
+        {"code": "1967", "campusType": "Engineering", "hires": 344, "domain": "Engineering", "subdomain": "Engineering Government"},
+        {"code": "1968", "campusType": "Engineering", "hires": 344, "domain": "Bu Hiring", "subdomain": "Annalytics"}
+      ],
+      "filterOptions": {
+        "campusType": ["All Type", "Engineering", "Non Engineering"],
+        "domain": ["Domain 1", "Domain 2", "Domain 3"],
+        "subDomain": ["Sub Domain 1", "Sub Domain 2", "Sub Domain 3"]
+      }
+    },
+    "events": {
+      "meta": {"total": 123},
+      "data": [
+        {"name":"Event Name Lorem", "id": 8458, "lcm": "NameLorem", "active": false, "status": "Waiting for Approval"},
+        {"name":"Event Name Lorem", "id": 8459, "lcm": "NameLorem", "active": false, "status": "Waiting for Approval"},
+        {"name":"Event Name Lorem", "id": 8460, "lcm": "NameLorem", "active": false, "status": "Waiting for Approval"},
+        {"name":"Event Name Lorem", "id": 8461, "lcm": "NameLorem", "active": false, "status": "Waiting for Approval"},
+        {"name":"Event Name Lorem", "id": 8462, "lcm": "NameLorem", "active": false, "status": "Waiting for Approval"}
+      ]
+    },
+    "eventDetails": {
+      "detail": [
+        {"field": "Regional Job Code", "value": "1174", "tooltip": "Some tooltip text"},
+        {"field": "Hiring Subdomain", "value": "-"},
+        {"field": "Event Date", "value": "31 July 2017"},
+        {"field": "Event Type", "value": "Engineering"},
+        {"field": "Institue Name", "value": "BIET"},
+        {"field": "Hiring Domain", "value": "Star"},
+        {"field": "Region", "value": "Kamataka"},
+        {"field": "Event Category", "value": "Single"}
+      ]
+    }
+  },
+  "masterJobs": {
+    "meta": {"total": 123},
+    "data": [
+      {"code": "1964", "campusType": "Engineering", "hires": 344, "domain": "BU Hiring", "subdomain": "A & IM"},
+      {"code": "1964", "campusType": "Non engineering", "hires": 344, "domain": "BU Hiring", "subdomain": "BAS-OEA "},
+      {"code": "1964", "campusType": "Engineering", "hires": 344, "domain": "Engineering", "subdomain": "Engineering Regular"},
+      {"code": "1964", "campusType": "Engineering", "hires": 344, "domain": "Engineering", "subdomain": "Engineering Regular"},
+      {"code": "1964", "campusType": "Engineering", "hires": 344, "domain": "Engineering", "subdomain": "Analytics"},
+      {"code": "1964", "campusType": "Non engineering", "hires": 344, "domain": "BU Hiring", "subdomain": "BAS-OEA"},
+      {"code": "1964", "campusType": "Engineering", "hires": 344, "domain": "Engineering", "subdomain": "BAS-SAP"},
+      {"code": "1964", "campusType": "Engineering", "hires": 344, "domain": "Engineering", "subdomain": "Engineering Government"},
+      {"code": "1964", "campusType": "Non engineering", "hires": 344, "domain": "BU Hiring", "subdomain": "Analytics"},
+      {"code": "1964", "campusType": "Engineering", "hires": 344, "domain": "BU Hiring", "subdomain": "BAS-SAP"}
+    ],
+    "searchFilterOptions":{
+      "hiringYear": ["Year 1", "Year 2", "Year 3"],
+      "division": ["Division 1", "Divison 2", "Divison 3"],
+      "subDivision": ["Sub Divison 1", "Sub Divison 2", "Sub Divison 3"],
+      "campusType": ["Type 1", "Type 2", "Type 3"],
+      "domain": ["Domain 1", "Domain 2", "Domain 3"],
+      "subDomain": ["Sub Domain 1", "Sub Domain 2", "Sub Domain 3"]
+    },
+    "filterOptions": {
+      "campusType": ["All Type", "Engineering", "Non Engineering"],
+      "domain": ["Domain 1", "Domain 2", "Domain 3"],
+      "subDomain": ["Sub Domain 1", "Sub Domain 2", "Sub Domain 3"]
+    }
+  },
+  "jobCodeDetails": {
+    "details":{
+      "code": 1964,
+      "division": "E-Enabling Soins",
+      "domain": "BU Hiring",
+      "category": "OFF SHORE",
+      "hires": 344,
+      "type": "Engineering",
+      "subDivision": "Enab-Oth",
+      "subDomain": "A & IM",
+      "year": 2015,
+      "doc": "RE Campus Event Approved.msg",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet  lacus accumsan et viverra justo commodo.",
+      "comments": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet  lacus accumsan et viverra justo commodo.",
+      "status": "rejected"
+    },
+    "options":{
+      "regions": ["Region 1", "Region 2", "Region 3"],
+      "lcm": ["LCM 1", "LCM 2", "LCM 3"],
+      "category": ["Category 1", "Category 2", "Category 3"]
+    }
+  },
+  "cpmEvent":{
+    "leftCol": [
+      { "title": "Event ID", "value": "8458" },
+      { "title": "Event Name", "value": "Star" },
+      { "title": "College Name", "value": "BMS College of Engineering" }
+    ],
+    "middleCol": [
+      { "title": "Location", "value": "Bangalore" },
+      { "title": "Event Date", "value": "09-Oct-2015" },
+      { "title": "Reporting Time", "value": "11:00" }
+    ]
+  },
+  "landingCpm":{
+    "title": "Event Name Lorem",
+    "info": [
+      { "label": "Reporting Timings", "value": "10:00" },
+      { "label": "Event Date", "value": "01 June 2017" },
+      { "label": "Registration Start Date", "value": "28 May 2017" },
+      { "label": "Day Slot", "value": "02" },
+      { "label": "Test Timings", "value": "11:00" },
+      { "label": "Event Day", "value": "03" },
+      { "label": "Registration End Date", "value": "30 May 2017" },
+      { "label": "Day Slot Type", "value": "Exclusive" }
+    ],
+    "cpm":[{
+      "avatar": "/i/avatars/jane_doe.png",
+      "name": "Prisha Kumar",
+      "id": 99974,
+      "attendance": false
+    }]
+  },
+  "dashboardCh": {
+    "chHero": {
+      "totalColleges": 42,
+      "totalJobCodes": 35
+    },
+    "colleges": {
+      "meta": {"total": 123},
+      "data": [
+        {"id":"4076","name":"BIT","score":"view","region":"Karnataka","type":"Engineering","institueName":"College NameLorem ipsum","personalName":"John Doe","address":"123 Road Name Lorem Rd","state":"Karnataka","city":"Bangalore","phone":["(+91) 1234-567890","(+91) 1234-567890"],"registerDate":"25 July 2017  09:30 am","collegeGrade":"Platinum","collegeType":"Engineering","sendMail":false},
+        {"id":"4077","name":"BMS","score":"view","region":"Karnataka","type":"Engineering","institueName":"College NameLorem ipsum","personalName":"John Doe","address":"123 Road Name Lorem Rd","state":"Karnataka","city":"Bangalore","phone":["(+91) 1234-567890","(+91) 1234-567890"],"registerDate":"25 July 2017  09:30 am","collegeGrade":"Gold","collegeType":"Engineering","sendMail":true},
+        {"id":"4078","name":"PA College","score":"view","region":"Karnataka","type":"Engineering","institueName":"College NameLorem ipsum","personalName":"John Doe","address":"123 Road Name Lorem Rd","state":"Karnataka","city":"Bangalore","phone":["(+91) 1234-567890","(+91) 1234-567890"],"registerDate":"25 July 2017  09:30 am","collegeGrade":"Gold","collegeType":"Engineering","sendMail":false},
+        {"id":"4079","name":"ABC","score":"view","region":"Karnataka","type":"Engineering","institueName":"College NameLorem ipsum","personalName":"John Doe","address":"123 Road Name Lorem Rd","state":"Karnataka","city":"Bangalore","phone":["(+91) 1234-567890","(+91) 1234-567890"],"registerDate":"25 July 2017  09:30 am","collegeGrade":"Platinum","collegeType":"Engineering","sendMail":true},
+        {"id":"4080","name":"SDM College","score":"view","region":"Karnataka","type":"Engineering","institueName":"College NameLorem ipsum","personalName":"John Doe","address":"123 Road Name Lorem Rd","state":"Karnataka","city":"Bangalore","phone":["(+91) 1234-567890","(+91) 1234-567890"],"registerDate":"25 July 2017  09:30 am","collegeGrade":"Gold","collegeType":"Engineering","sendMail":false},
+        {"id":"4081","name":"VTU","score":"view","region":"Karnataka","type":"Engineering","institueName":"College NameLorem ipsum","personalName":"John Doe","address":"123 Road Name Lorem Rd","state":"Karnataka","city":"Bangalore","phone":["(+91) 1234-567890","(+91) 1234-567890"],"registerDate":"25 July 2017  09:30 am","collegeGrade":"Silver","collegeType":"Engineering","sendMail":true},
+        {"id":"4082","name":"RNS","score":"view","region":"Karnataka","type":"Engineering","institueName":"College NameLorem ipsum","personalName":"John Doe","address":"123 Road Name Lorem Rd","state":"Karnataka","city":"Bangalore","phone":["(+91) 1234-567890","(+91) 1234-567890"],"registerDate":"25 July 2017  09:30 am","collegeGrade":"Bronze","collegeType":"Engineering","sendMail":false},
+        {"id":"4083","name":"PES","score":"view","region":"Karnataka","type":"Engineering","institueName":"College NameLorem ipsum","personalName":"John Doe","address":"123 Road Name Lorem Rd","state":"Karnataka","city":"Bangalore","phone":["(+91) 1234-567890","(+91) 1234-567890"],"registerDate":"25 July 2017  09:30 am","collegeGrade":"Gold","collegeType":"Engineering","sendMail":true},
+        {"id":"4084","name":"ABC","score":"view","region":"Karnataka","type":"Engineering","institueName":"College NameLorem ipsum","personalName":"John Doe","address":"123 Road Name Lorem Rd","state":"Karnataka","city":"Bangalore","phone":["(+91) 1234-567890","(+91) 1234-567890"],"registerDate":"25 July 2017  09:30 am","collegeGrade":"Gold","collegeType":"Engineering","sendMail":false},
+        {"id":"4085","name":"BIT","score":"view","region":"Karnataka","type":"Engineering","institueName":"College NameLorem ipsum","personalName":"John Doe","address":"123 Road Name Lorem Rd","state":"Karnataka","city":"Bangalore","phone":["(+91) 1234-567890","(+91) 1234-567890"],"registerDate":"25 July 2017  09:30 am","collegeGrade":"Platinum","collegeType":"Engineering","sendMail":true}
+      ]
+    }
+  },
+  "panelMaster": {
+    "options": {
+      "type": ["Technical", "type 2", "type 3"],
+      "areas": ["Karnataka", "area 2", "area 3"],
+      "bands": ["Careere1", "Careere2", "Careere3"]
+    },
+    "data": {
+      "id": 12345,
+      "area": "Karnataka",
+      "type": "Technical",
+      "name": "Prisha Kumar",
+      "email": "prisha@domain.com",
+      "from": "2017/05/24",
+      "to": "2017/05/24",
+      "band": "Careere1"
+    }
+  },
+  "csmHero": {
+      "totalJobCodes": 73,
+      "createdToday": 5,
+      "waitingApproval": 10,
+      "approvedByCH": 30,
+      "rejectedByCH": 10
+  },
+  "candidateAudit":{
+    "details": [{
+      "label": "Resume Number",
+      "value": 54274,
+      "link": true
+    },{
+      "label": "Candidates Status",
+      "value": "Employment Offer"
+    },{
+      "label": "Date of Birth",
+      "value": "04-06-1992"
+    },{
+      "label": "Event ID",
+      "value": 8251
+    },{
+      "label": "LCM Name",
+      "value": "Prashant Gautam"
+    },{
+      "label": "Audit Status",
+      "value": "Hard Closure"
+    },{
+      "label": "Candidate Name",
+      "value": "Divya Shree"
+    },{
+      "label": "Email ID",
+      "value": "Lavanyatest@Sen.com"
+    },{
+      "label": "College Name",
+      "value": "CollegeName Lorem"
+    },{
+      "label": "Event Name",
+      "value": "EngTest1"
+    },{
+      "label": "Event Type",
+      "value": "Engineering"
+    },{
+      "label": "Auditor Comment",
+      "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+    }],
+    "clarifyDetails": [{
+      "label": "Resume Number",
+      "value": 54274,
+      "link": true
+    },{
+      "label": "Candidates Status",
+      "value": "Employment Offer"
+    },{
+      "label": "Date of Birth",
+      "value": "04-06-1992"
+    },{
+      "label": "Event ID",
+      "value": 8251
+    },{
+      "label": "LCM Name",
+      "value": "Prashant Gautam"
+    },{
+      "label": "Audit Status",
+      "value": "Hard Closure"
+    },{
+      "label": "Candidate Clarify Comment",
+      "value": "Null"
+    },{
+      "label": "Candidate Name",
+      "value": "Divya Shree"
+    },{
+      "label": "Email ID",
+      "value": "Lavanyatest@Sen.com"
+    },{
+      "label": "College Name",
+      "value": "CollegeName Lorem"
+    },{
+      "label": "Event Name",
+      "value": "EngTest1"
+    },{
+      "label": "Event Type",
+      "value": "Engineering"
+    },{
+      "label": "Candidate Clarify Date",
+      "value": "04-06-1992"
+    }],
+    "jobStatusOptions": ["Status 1", "Status 2", "Status 3"]
+  },
+  "selectedEvents": {
+    "data": [
+      {"code": 4076, "id": 1231, "eventName": "Event ABC", "instituteName": "Wipro", "region": "Karnataka", "eventDate": "27 Nov 17", "eventType": "Non engineering", "hiringDomain": "WASE", "eventCategory": "Single Campus Event"},
+      {"code": 4076, "id": 1232, "eventName": "Event ABC", "instituteName": "Wipro", "region": "Karnataka", "eventDate": "27 Nov 17", "eventType": "Non engineering", "hiringDomain": "WASE", "eventCategory": "Single Campus Event"}
+    ]
+  },
+  "vendorUploadResults": {
+    "success": "2",
+    "failure": 1,
+    "records": [{
+      "resumeNumber": 4076,
+      "analyticalScore": 100,
+      "rechnicalScore": 50,
+      "testResult": "PASS",
+      "IAStatus": "Clear",
+      "IAPanelName": "test",
+      "IAPanelID": 1234,
+      "finalStatus": "SELECT",
+      "remarks": "Selected",
+      "reason": "Invalid Resume"
+    }]
+  },
+  "uploadTurboStar": {
+    "meta": {"total": 123},
+    "data": [
+      {"candidateName": "NameLorem", "candidateEmail": "name@email.com", "collegeName": "College ABC", "score": {"10th": 11, "12th": 22, "UG": 33, "PG": 44}},
+      {"candidateName": "NameLorem", "candidateEmail": "name@email.com", "collegeName": "College ABC", "score": {"10th": 11, "12th": 22, "UG": 33, "PG": 44}},
+      {"candidateName": "NameLorem", "candidateEmail": "name@email.com", "collegeName": "College ABC", "score": {"10th": 11, "12th": 22, "UG": 33, "PG": 44}},
+      {"candidateName": "NameLorem", "candidateEmail": "name@email.com", "collegeName": "College ABC", "score": {"10th": 11, "12th": 22, "UG": 33, "PG": 44}},
+      {"candidateName": "NameLorem", "candidateEmail": "name@email.com", "collegeName": "College ABC", "score": {"10th": 11, "12th": 22, "UG": 33, "PG": 44}},
+      {"candidateName": "NameLorem", "candidateEmail": "name@email.com", "collegeName": "College ABC", "score": {"10th": 11, "12th": 22, "UG": 33, "PG": 44}},
+      {"candidateName": "NameLorem", "candidateEmail": "name@email.com", "collegeName": "College ABC", "score": {"10th": 11, "12th": 22, "UG": 33, "PG": 44}},
+      {"candidateName": "NameLorem", "candidateEmail": "name@email.com", "collegeName": "College ABC", "score": {"10th": 11, "12th": 22, "UG": 33, "PG": 44}},
+      {"candidateName": "NameLorem", "candidateEmail": "name@email.com", "collegeName": "College ABC", "score": {"10th": 11, "12th": 22, "UG": 33, "PG": 44}},
+      {"candidateName": "NameLorem", "candidateEmail": "name@email.com", "collegeName": "College ABC", "score": {"10th": 11, "12th": 22, "UG": 33, "PG": 44}}
+    ]
+  },
+  "masterJobData": {
+    "campusType": "Engineering",
+    "hiringYear": "2017",
+    "noOfHires": "125",
+    "batch": "Lorem Ipsum",
+    "stream": "Lorem Ipsum",
+    "division": "E-Enabling Soins",
+    "subdivision": "Enab-Oth",
+    "location": "Bangalore",
+    "hiringDomain": "BU Hiring",
+    "bu": "Lorem Ipsum",
+    "hiringSubDomain": "A & IM",
+    "reportingDate": "2017/10/11",
+    "hiringCategory": "OFF SHORE",
+    "noOfOpens": "125",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.",
+    "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.",
+    "attachment": "",
+    "attachments": ["Attachmentname.doc"]
+  },
+  "candidateResultModal":{
+    "details": [
+      {
+        "label": "Event Name",
+        "value": "EventNameLorem"
+      },
+      {
+        "label": "Event Date",
+        "value": "31 July 2017"
+      },
+      {
+        "label": "Event Type",
+        "value": "Engineering"
+      },
+      {
+        "label": "Event ID",
+        "value": 8458,
+        "icon": true
+      },
+      {
+        "label": "Venue Name",
+        "value": "Nov Venue"
+      },
+      {
+        "label": "Event Category",
+        "value": "Single"
+      },
+      {
+        "label": "College Name",
+        "value": "NameLorem"
+      },
+      {
+        "label": "Regional Job Code",
+        "value": 1140
+      },
+      {
+        "label": "Region",
+        "value": "Kamataka"
+      }
+    ],
+    "candidates": {
+      "meta": {"total": 123},
+      "data": [
+        {"id": 1945, "ref": 1203, "name": "Name Lorem", "email": "name@email", "college": "ABC", "ten": 11, "twelve": 22, "ug": 33, "pg": 44, "eventType": "ENG", "status": "Technical Reject"},
+        {"id": 1946, "ref": 1203, "name": "Name Lorem", "email": "name@email", "college": "ABC", "ten": 11, "twelve": 22, "ug": 33, "pg": 44, "eventType": "ENG", "status": "Technical Reject"},
+        {"id": 1947, "ref": 1203, "name": "Name Lorem", "email": "name@email", "college": "ABC", "ten": 11, "twelve": 22, "ug": 33, "pg": 44, "eventType": "ENG", "status": "Technical Select"},
+        {"id": 1948, "ref": 1203, "name": "Name Lorem", "email": "name@email", "college": "ABC", "ten": 11, "twelve": 22, "ug": 33, "pg": 44, "eventType": "ENG", "status": "Technical Select"},
+        {"id": 1949, "ref": 1203, "name": "Name Lorem", "email": "name@email", "college": "ABC", "ten": 11, "twelve": 22, "ug": 33, "pg": 44, "eventType": "ENG", "status": "Technical Select"},
+        {"id": 1950, "ref": 1203, "name": "Name Lorem", "email": "name@email", "college": "ABC", "ten": 11, "twelve": 22, "ug": 33, "pg": 44, "eventType": "ENG", "status": "Technical Reject"},
+        {"id": 1951, "ref": 1203, "name": "Name Lorem", "email": "name@email", "college": "ABC", "ten": 11, "twelve": 22, "ug": 33, "pg": 44, "eventType": "ENG", "status": "Technical Reject"},
+        {"id": 1952, "ref": 1203, "name": "Name Lorem", "email": "name@email", "college": "ABC", "ten": 11, "twelve": 22, "ug": 33, "pg": 44, "eventType": "ENG", "status": "Technical Reject"}
+      ]
+    }
+  },
+  "batch":{
+    "meta": {"total": 123},
+    "data": [
+      {"no": 778, "year": 2016, "month": "September", "demand": "09-11-1989", "joining": "09-11-1989", "bu": 8251, "domain": "ESS", "request": 125},
+      {"no": 778, "year": 2016, "month": "October", "demand": "09-11-1989", "joining": "09-11-1989", "bu": 8251, "domain": "ENG", "request": 125},
+      {"no": 778, "year": 2016, "month": "January", "demand": "09-11-1989", "joining": "09-11-1989", "bu": 8251, "domain": "ESS", "request": 125},
+      {"no": 778, "year": 2016, "month": "September", "demand": "09-11-1989", "joining": "09-11-1989", "bu": 8251, "domain": "ENG", "request": 125},
+      {"no": 778, "year": 2016, "month": "July", "demand": "09-11-1989", "joining": "09-11-1989", "bu": 8251, "domain": "ENG", "request": 125},
+      {"no": 778, "year": 2016, "month": "November", "demand": "09-11-1989", "joining": "09-11-1989", "bu": 8251, "domain": "ESS", "request": 125},
+      {"no": 778, "year": 2016, "month": "February", "demand": "09-11-1989", "joining": "09-11-1989", "bu": 8251, "domain": "ESS", "request": 125},
+      {"no": 778, "year": 2016, "month": "September", "demand": "09-11-1989", "joining": "09-11-1989", "bu": 8251, "domain": "SD", "request": 125},
+      {"no": 778, "year": 2016, "month": "December", "demand": "09-11-1989", "joining": "09-11-1989", "bu": 8251, "domain": "SD", "request": 125},
+      {"no": 778, "year": 2016, "month": "September", "demand": "09-11-1989", "joining": "09-11-1989", "bu": 8251, "domain": "ESS", "request": 125}
+    ]
+  },
+  "streams": {
+    "meta": {"total": 123},
+    "data":[
+      {"stream": "COREJAVA", "year": 2016, "month": "Sep", "bu": 8251, "domain": "ESS", "bdc": "00", "cdc": "00", "gndc": "00", "pdc": "00", "kdc": "00", "bodc": "00", "kdc2": "00", "hdc": "00"},
+      {"stream": "COREJAVA", "year": 2016, "month": "Sep", "bu": 8251, "domain": "ESS", "bdc": "00", "cdc": "00", "gndc": "00", "pdc": "00", "kdc": "00", "bodc": "00", "kdc2": "00", "hdc": "00"},
+      {"stream": "COREJAVA", "year": 2016, "month": "Sep", "bu": 8251, "domain": "ESS", "bdc": "00", "cdc": "00", "gndc": "00", "pdc": "00", "kdc": "00", "bodc": "00", "kdc2": "00", "hdc": "00"},
+      {"stream": "COREJAVA", "year": 2016, "month": "Sep", "bu": 8251, "domain": "ESS", "bdc": "00", "cdc": "00", "gndc": "00", "pdc": "00", "kdc": "00", "bodc": "00", "kdc2": "00", "hdc": "00"},
+      {"stream": "COREJAVA", "year": 2016, "month": "Sep", "bu": 8251, "domain": "ESS", "bdc": "00", "cdc": "00", "gndc": "00", "pdc": "00", "kdc": "00", "bodc": "00", "kdc2": "00", "hdc": "00"},
+      {"stream": "COREJAVA", "year": 2016, "month": "Sep", "bu": 8251, "domain": "ESS", "bdc": "00", "cdc": "00", "gndc": "00", "pdc": "00", "kdc": "00", "bodc": "00", "kdc2": "00", "hdc": "00"},
+      {"stream": "COREJAVA", "year": 2016, "month": "Sep", "bu": 8251, "domain": "ESS", "bdc": "00", "cdc": "00", "gndc": "00", "pdc": "00", "kdc": "00", "bodc": "00", "kdc2": "00", "hdc": "00"},
+      {"stream": "COREJAVA", "year": 2016, "month": "Sep", "bu": 8251, "domain": "ESS", "bdc": "00", "cdc": "00", "gndc": "00", "pdc": "00", "kdc": "00", "bodc": "00", "kdc2": "00", "hdc": "00"},
+      {"stream": "COREJAVA", "year": 2016, "month": "Sep", "bu": 8251, "domain": "ESS", "bdc": "00", "cdc": "00", "gndc": "00", "pdc": "00", "kdc": "00", "bodc": "00", "kdc2": "00", "hdc": "00"},
+      {"stream": "COREJAVA", "year": 2016, "month": "Sep", "bu": 8251, "domain": "ESS", "bdc": "00", "cdc": "00", "gndc": "00", "pdc": "00", "kdc": "00", "bodc": "00", "kdc2": "00", "hdc": "00"}
+    ]
+  },
+  "candidatesList": {
+    "meta": {"total": 123},
+    "data": [
+      {"id": "5955", "resumeNumber": 4076, "candidateName": "Prisha Kumar", "candidateEmail": "prisha@email.com", "eventID": 8251, "eventName": "NovEvent2", "eventType": "Engineering", "venueName": "VenueName", "currentStatus": "To Screen"},
+      {"id": "6579", "resumeNumber": 4076, "candidateName": "Prisha Kumar", "candidateEmail": "prisha@email.com", "eventID": 8251, "eventName": "NovEvent2", "eventType": "Engineering", "venueName": "VenueName", "currentStatus": "To Screen"},
+      {"id": "3849", "resumeNumber": 4076, "candidateName": "Prisha Kumar", "candidateEmail": "prisha@email.com", "eventID": 8251, "eventName": "NovEvent2", "eventType": "Engineering", "venueName": "VenueName", "currentStatus": "To Screen"},
+      {"id": "3056", "resumeNumber": 4076, "candidateName": "Prisha Kumar", "candidateEmail": "prisha@email.com", "eventID": 8251, "eventName": "NovEvent2", "eventType": "Engineering", "venueName": "VenueName", "currentStatus": "To Screen"},
+      {"id": "1001", "resumeNumber": 4076, "candidateName": "Prisha Kumar", "candidateEmail": "prisha@email.com", "eventID": 8251, "eventName": "NovEvent2", "eventType": "Engineering", "venueName": "VenueName", "currentStatus": "To Screen"},
+      {"id": "8107", "resumeNumber": 4076, "candidateName": "Prisha Kumar", "candidateEmail": "prisha@email.com", "eventID": 8251, "eventName": "NovEvent2", "eventType": "Engineering", "venueName": "VenueName", "currentStatus": "To Screen"},
+      {"id": "8487", "resumeNumber": 4076, "candidateName": "Prisha Kumar", "candidateEmail": "prisha@email.com", "eventID": 8251, "eventName": "NovEvent2", "eventType": "Engineering", "venueName": "VenueName", "currentStatus": "To Screen"},
+      {"id": "6643", "resumeNumber": 4076, "candidateName": "Prisha Kumar", "candidateEmail": "prisha@email.com", "eventID": 8251, "eventName": "NovEvent2", "eventType": "Engineering", "venueName": "VenueName", "currentStatus": "To Screen"},
+      {"id": "6458", "resumeNumber": 4076, "candidateName": "Prisha Kumar", "candidateEmail": "prisha@email.com", "eventID": 8251, "eventName": "NovEvent2", "eventType": "Engineering", "venueName": "VenueName", "currentStatus": "To Screen"},
+      {"id": "7347", "resumeNumber": 4076, "candidateName": "Prisha Kumar", "candidateEmail": "prisha@email.com", "eventID": 8251, "eventName": "NovEvent2", "eventType": "Engineering", "venueName": "VenueName", "currentStatus": "To Screen"}
+    ]
+  },
+  "masterJobsCsm": {
+    "meta": {"total": 123},
+    "data": [
+      {"code": "1954", "campusType": "Engineering", "hires": 344, "domain": "BU Hiring", "subdomain": "A & IM", "status": "Approved"},
+      {"code": "1961", "campusType": "Engineering", "hires": 123, "domain": "Engineering", "subdomain": "Engineering Regular", "status": "Rejected"},
+      {"code": "1964", "campusType": "Engineering", "hires": 135, "domain": "BU Hiring", "subdomain": "BAS-OEA", "status": "Waiting Approval"},
+      {"code": "1967", "campusType": "Non engineering", "hires": 115, "domain": "BU Hiring", "subdomain": "Analytics", "status": "Waiting Approval"},
+      {"code": "1954", "campusType": "Engineering", "hires": 123, "domain": "BU Hiring", "subdomain": "A & IM", "status": "Approved"},
+      {"code": "1961", "campusType": "Engineering", "hires": 135, "domain": "Engineering", "subdomain": "BAS-OEA", "status": "Rejected"},
+      {"code": "1964", "campusType": "Engineering", "hires": 134, "domain": "Engineering", "subdomain": "Engineering Regular", "status": "Waiting Approval"},
+      {"code": "1967", "campusType": "Non engineering", "hires": 136, "domain": "BU Hiring", "subdomain": "BAS-SAP", "status": "Waiting Approval"},
+      {"code": "1964", "campusType": "Engineering", "hires": 344, "domain": "BU Hiring", "subdomain": "BAS-OEA", "status": "Approved"},
+      {"code": "1967", "campusType": "Non engineering", "hires": 115, "domain": "BU Hiring", "subdomain": "Analytics", "status": "Approved"}
+    ]
+  },
+  "candidateStatusTable": {
+    "meta": {"total": 123},
+    "data": [
+      {"resumeNo": 4076, "candiName": "Prisha Kumar", "candiEmail": "prisha@domain.com", "dob": "09-11-1989", "collegeName": "PA College", "eventId": 8251, "currStatus":"Employee Offer", "candiDomain": "WASE", "lcm": "Name Lorem", "auditStatus": "Hard Closure"},
+      {"resumeNo": 4076, "candiName": "Prisha Kumar", "candiEmail": "prisha@domain.com", "dob": "09-11-1989", "collegeName": "PA College", "eventId": 8251, "currStatus":"Employee Offer", "candiDomain": "WASE", "lcm": "Name Lorem", "auditStatus": "Hard Closure"},
+      {"resumeNo": 4076, "candiName": "Prisha Kumar", "candiEmail": "prisha@domain.com", "dob": "09-11-1989", "collegeName": "PA College", "eventId": 8251, "currStatus":"Employee Offer", "candiDomain": "WASE", "lcm": "Name Lorem", "auditStatus": "Hard Closure"},
+      {"resumeNo": 4076, "candiName": "Prisha Kumar", "candiEmail": "prisha@domain.com", "dob": "09-11-1989", "collegeName": "PA College", "eventId": 8251, "currStatus":"Employee Offer", "candiDomain": "WASE", "lcm": "Name Lorem", "auditStatus": "Hard Closure"},
+      {"resumeNo": 4076, "candiName": "Prisha Kumar", "candiEmail": "prisha@domain.com", "dob": "09-11-1989", "collegeName": "PA College", "eventId": 8251, "currStatus":"Employee Offer", "candiDomain": "WASE", "lcm": "Name Lorem", "auditStatus": "Hard Closure"},
+      {"resumeNo": 4076, "candiName": "Prisha Kumar", "candiEmail": "prisha@domain.com", "dob": "09-11-1989", "collegeName": "PA College", "eventId": 8251, "currStatus":"Employee Offer", "candiDomain": "WASE", "lcm": "Name Lorem", "auditStatus": "Hard Closure"},
+      {"resumeNo": 4076, "candiName": "Prisha Kumar", "candiEmail": "prisha@domain.com", "dob": "09-11-1989", "collegeName": "PA College", "eventId": 8251, "currStatus":"Employee Offer", "candiDomain": "WASE", "lcm": "Name Lorem", "auditStatus": "Hard Closure"},
+      {"resumeNo": 4076, "candiName": "Prisha Kumar", "candiEmail": "prisha@domain.com", "dob": "09-11-1989", "collegeName": "PA College", "eventId": 8251, "currStatus":"Employee Offer", "candiDomain": "WASE", "lcm": "Name Lorem", "auditStatus": "Hard Closure"},
+      {"resumeNo": 4076, "candiName": "Prisha Kumar", "candiEmail": "prisha@domain.com", "dob": "09-11-1989", "collegeName": "PA College", "eventId": 8251, "currStatus":"Employee Offer", "candiDomain": "WASE", "lcm": "Name Lorem", "auditStatus": "Hard Closure"}
+    ]
+  },
+  "panelNomination": {
+    "meta": {"total": 123},
+    "data": [
+      {"id": 4076, "name": "Prisha Kumar", "email": "prisha@domain.com", "band": "CAREERE1", "subarea": "Mysore", "region": "Karnataka", "panelType": "Human Resource", "from": "19 Jun 2015", "to": "19 Jun 2016", "status": "Accepted"},
+      {"id": 4071, "name": "Prisha Kumar", "email": "prisha@domain.com", "band": "CAREERE1", "subarea": "Mysore", "region": "Karnataka", "panelType": "Human Resource", "from": "19 Jun 2015", "to": "19 Jun 2016", "status": "Rejected"},
+      {"id": 4072, "name": "Prisha Kumar", "email": "prisha@domain.com", "band": "CAREERE1", "subarea": "Mysore", "region": "Karnataka", "panelType": "Human Resource", "from": "19 Jun 2015", "to": "19 Jun 2016", "status": "Waiting Approval"},
+      {"id": 4073, "name": "Prisha Kumar", "email": "prisha@domain.com", "band": "CAREERE1", "subarea": "Mysore", "region": "Karnataka", "panelType": "Human Resource", "from": "19 Jun 2015", "to": "19 Jun 2016", "status": "Waiting Approval"},
+      {"id": 4074, "name": "Prisha Kumar", "email": "prisha@domain.com", "band": "CAREERE1", "subarea": "Mysore", "region": "Karnataka", "panelType": "Human Resource", "from": "19 Jun 2015", "to": "19 Jun 2016", "status": "Waiting Approval"},
+      {"id": 4075, "name": "Prisha Kumar", "email": "prisha@domain.com", "band": "CAREERE1", "subarea": "Mysore", "region": "Karnataka", "panelType": "Human Resource", "from": "19 Jun 2015", "to": "19 Jun 2016", "status": "Waiting Approval"},
+      {"id": 4080, "name": "Prisha Kumar", "email": "prisha@domain.com", "band": "CAREERE1", "subarea": "Mysore", "region": "Karnataka", "panelType": "Human Resource", "from": "19 Jun 2015", "to": "19 Jun 2016", "status": "Waiting Approval"},
+      {"id": 4077, "name": "Prisha Kumar", "email": "prisha@domain.com", "band": "CAREERE1", "subarea": "Mysore", "region": "Karnataka", "panelType": "Human Resource", "from": "19 Jun 2015", "to": "19 Jun 2016", "status": "Waiting Approval"},
+      {"id": 4078, "name": "Prisha Kumar", "email": "prisha@domain.com", "band": "CAREERE1", "subarea": "Mysore", "region": "Karnataka", "panelType": "Human Resource", "from": "19 Jun 2015", "to": "19 Jun 2016", "status": "Waiting Approval"},
+      {"id": 4079, "name": "Prisha Kumar", "email": "prisha@domain.com", "band": "CAREERE1", "subarea": "Mysore", "region": "Karnataka", "panelType": "Human Resource", "from": "19 Jun 2015", "to": "19 Jun 2016", "status": "Waiting Approval"}
+    ]
+  },
+  "lcmList": {
+    "meta": {"total": 123},
+    "data": [
+      {"id": 11, "lcm": "LCMNameLorem1", "currentEvent": 1, "region": "karnataka", "collegeName": "College ABC", "campusType": "Non Engineering"},
+      {"id": 12,"lcm": "LCMNameLorem2", "currentEvent": 1, "region": "chennai", "collegeName": "College ABC", "campusType": "Engineering"},
+      {"id": 13,"lcm": "LCMNameLorem3", "currentEvent": 1, "region": "delhi", "collegeName": "College ABC", "campusType": "Non Engineering"},
+      {"id": 14,"lcm": "LCMNameLorem4", "currentEvent": 1, "region": "karnataka", "collegeName": "College ABC", "campusType": "Non Engineering"},
+      {"id": 15,"lcm": "LCMNameLorem5", "currentEvent": 1, "region": "chennai", "collegeName": "College ABC", "campusType": "Engineering"},
+      {"id": 16,"lcm": "LCMNameLorem6", "currentEvent": 1, "region": "chennai", "collegeName": "College ABC", "campusType": "Non Engineering"},
+      {"id": 17,"lcm": "LCMNameLorem7", "currentEvent": 1, "region": "delhi", "collegeName": "College ABC", "campusType": "Non Engineering"},
+      {"id": 18,"lcm": "LCMNameLorem8", "currentEvent": 1, "region": "delhi", "collegeName": "College ABC", "campusType": "Engineering"},
+      {"id": 19,"lcm": "LCMNameLorem9", "currentEvent": 1, "region": "Karnataka", "collegeName": "College ABC", "campusType": "Non Engineering"},
+      {"id": 20,"lcm": "LCMNameLorem10", "currentEvent": 1, "region": "chennai", "collegeName": "College ABC", "campusType": "Engineering"}
+    ]
+  },
+  "manageLcm": {
+    "summary": {
+      "lcm": "LCM Namelorem ipsum",
+      "region": "Karnataka",
+      "campusType": "Engineering"
+    },
+    "events": {
+      "meta": {"total": 123},
+      "data": [
+        {"name":"Event Name Lorem", "id": 8458, "lcm": "NameLorem", "status": "Waiting for Approval"},
+        {"name":"Event Name Lorem", "id": 8459, "lcm": "NameLorem", "status": "Waiting for Approval"},
+        {"name":"Event Name Lorem", "id": 8460, "lcm": "NameLorem", "status": "Waiting for Approval"},
+        {"name":"Event Name Lorem", "id": 8461, "lcm": "NameLorem", "status": "Waiting for Approval"},
+        {"name":"Event Name Lorem", "id": 8462, "lcm": "NameLorem", "status": "Waiting for Approval"}
+      ]
+    },
+    "eventDetails": {
+      "detail": [
+        {"field": "Regional Job Code", "value": "1174", "tooltip": [
+          {"label": "Master Job Code", "value": "1945"},
+          {"label": "Regional Job Code", "value": "1203"},
+          {"label": "No. of Hires", "value": "100"},
+          {"label": "Hiring Year", "value": "2016"},
+          {"label": "Region", "value": "Karnataka"},
+          {"label": "Campus Type", "value": "Engineering"},
+          {"label": "Campus Category", "value": "Off Campus"},
+          {"label": "Hiring Domain", "value": "Turbo"},
+          {"label": "Hiring Subdomain", "value": "Turbo Intern"}
+        ]},
+        {"field": "Hiring Subdomain", "value": "-"},
+        {"field": "Event Date", "value": "31 July 2017"},
+        {"field": "Event Type", "value": "Engineering"},
+        {"field": "Institue Name", "value": "BIET"},
+        {"field": "Hiring Domain", "value": "Star"},
+        {"field": "Region", "value": "Kamataka"},
+        {"field": "Event Category", "value": "Single"}
+      ]
+    }
+  },
+  "techUser": {
+    "events": {
+      "meta": {"total": 123},
+      "data": [
+        {"id": 4076, "name": "Name ABC", "type": "ENG", "venueName": "Venue ABC", "location": "Bangalore", "date": "27 Nov 17", "days": 99, "required": 2, "nominated": 1, "slots": 1},
+        {"id": 4076, "name": "Name ABC", "type": "ENG", "venueName": "Venue ABC", "location": "Bangalore", "date": "27 Nov 17", "days": 99, "required": 2, "nominated": 1, "slots": 1},
+        {"id": 4076, "name": "Name ABC", "type": "ENG", "venueName": "Venue ABC", "location": "Bangalore", "date": "27 Nov 17", "days": 99, "required": 2, "nominated": 1, "slots": 1},
+        {"id": 4076, "name": "Name ABC", "type": "ENG", "venueName": "Venue ABC", "location": "Bangalore", "date": "27 Nov 17", "days": 99, "required": 2, "nominated": 1, "slots": 1}
+      ]
+    },
+    "candidates": {
+      "meta": {"total": 3},
+      "data": [
+        {"id": 1, "number": 541223, "eventId": 8095, "eventName": "CollegeNameLorem", "candidateName": "Prisha Kumar",  "email": "prisha@email.com"},
+        {"id": 2, "number": 541223, "eventId": 8095, "eventName": "CollegeNameLorem", "candidateName": "Prisha Kumar",  "email": "prisha@email.com"},
+        {"id": 3, "number": 541223, "eventId": 8095, "eventName": "CollegeNameLorem", "candidateName": "Prisha Kumar",  "email": "prisha@email.com"}
+      ],
+      "resultOptions": ["result 1", "result 2", "result 3"]
+    },
+    "feedback": {
+      "meta": {"total": 127},
+      "data": [
+        {"id": 1964, "name": "EventName Lorem ipsum", "date": "31-10-2016"},
+        {"id": 1964, "name": "EventName Lorem ipsum", "date": "31-10-2016"},
+        {"id": 1964, "name": "EventName Lorem ipsum", "date": "31-10-2016"},
+        {"id": 1964, "name": "EventName Lorem ipsum", "date": "31-10-2016"},
+        {"id": 1964, "name": "EventName Lorem ipsum", "date": "31-10-2016"},
+        {"id": 1964, "name": "EventName Lorem ipsum", "date": "31-10-2016"},
+        {"id": 1964, "name": "EventName Lorem ipsum", "date": "31-10-2016"},
+        {"id": 1964, "name": "EventName Lorem ipsum", "date": "31-10-2016"},
+        {"id": 1964, "name": "EventName Lorem ipsum", "date": "31-10-2016"},
+        {"id": 1964, "name": "EventName Lorem ipsum", "date": "31-10-2016"}
+      ]
+    }
+  },
+  "techPanelUser": {
+    "discussionCandidates": {
+      "meta": {"total": 123},
+      "data": [
+        {"id": 1, "number": 541223, "eventId": 8095, "eventName": "CollegeNameLorem", "candidateName": "Prisha Kumar",  "email": "prisha@email.com", "status": "Waiting for Approval"},
+        {"id": 2, "number": 541223, "eventId": 8095, "eventName": "CollegeNameLorem", "candidateName": "Prisha Kumar",  "email": "prisha@email.com", "status": "Waiting for Approval"},
+        {"id": 3, "number": 541223, "eventId": 8095, "eventName": "CollegeNameLorem", "candidateName": "Prisha Kumar",  "email": "prisha@email.com", "status": "Waiting for Approval"},
+        {"id": 4, "number": 541223, "eventId": 8095, "eventName": "CollegeNameLorem", "candidateName": "Prisha Kumar",  "email": "prisha@email.com", "status": "Waiting for Approval"},
+        {"id": 5, "number": 541223, "eventId": 8095, "eventName": "CollegeNameLorem", "candidateName": "Prisha Kumar",  "email": "prisha@email.com", "status": "Waiting for Approval"},
+        {"id": 6, "number": 541223, "eventId": 8095, "eventName": "CollegeNameLorem", "candidateName": "Prisha Kumar",  "email": "prisha@email.com", "status": "Waiting for Approval"},
+        {"id": 7, "number": 541223, "eventId": 8095, "eventName": "CollegeNameLorem", "candidateName": "Prisha Kumar",  "email": "prisha@email.com", "status": "Waiting for Approval"},
+        {"id": 8, "number": 541223, "eventId": 8095, "eventName": "CollegeNameLorem", "candidateName": "Prisha Kumar",  "email": "prisha@email.com", "status": "Waiting for Approval"},
+        {"id": 9, "number": 541223, "eventId": 8095, "eventName": "CollegeNameLorem", "candidateName": "Prisha Kumar",  "email": "prisha@email.com", "status": "Waiting for Approval"},
+        {"id": 10, "number": 541223, "eventId": 8095, "eventName": "CollegeNameLorem", "candidateName": "Prisha Kumar",  "email": "prisha@email.com", "status": "Waiting for Approval"}
+      ]
+    }
+  },
+  "gdResult": {
+    "disussionDetails": {
+      "id": 99966,
+      "name": "Prashant Gautam",
+      "email": "LCM2@campus.com",
+      "batchNumber": 88,
+      "topic": "Testing",
+      "date": "14-12-2016",
+      "startTime": "08:30 AM"
+    }
+  },
+  "cpmList": {
+    "meta": {"total": 123},
+    "data": [
+      {"employeeID": 4076, "employeeName": "Prisha Kumar", "emailID": "prisha@email.com", "band": "CAREERE1", "subArea": "Mysore", "region": "Karnataka", "panelType": "Human Resource", "from": "19 Jun 2015", "to": "19 Jun 2016"},
+      {"employeeID": 4077, "employeeName": "Prisha Kumar", "emailID": "prisha@email.com", "band": "CAREERE1", "subArea": "Mysore", "region": "Karnataka", "panelType": "Human Resource", "from": "19 Jun 2015", "to": "19 Jun 2016"},
+      {"employeeID": 4078, "employeeName": "Prisha Kumar", "emailID": "prisha@email.com", "band": "CAREERE1", "subArea": "Mysore", "region": "Karnataka", "panelType": "Human Resource", "from": "19 Jun 2015", "to": "19 Jun 2016"},
+      {"employeeID": 4079, "employeeName": "Prisha Kumar", "emailID": "prisha@email.com", "band": "CAREERE1", "subArea": "Mysore", "region": "Karnataka", "panelType": "Human Resource", "from": "19 Jun 2015", "to": "19 Jun 2016"},
+      {"employeeID": 4080, "employeeName": "Prisha Kumar", "emailID": "prisha@email.com", "band": "CAREERE1", "subArea": "Mysore", "region": "Karnataka", "panelType": "Human Resource", "from": "19 Jun 2015", "to": "19 Jun 2016"},
+      {"employeeID": 4081, "employeeName": "Prisha Kumar", "emailID": "prisha@email.com", "band": "CAREERE1", "subArea": "Mysore", "region": "Karnataka", "panelType": "Human Resource", "from": "19 Jun 2015", "to": "19 Jun 2016"},
+      {"employeeID": 4082, "employeeName": "Prisha Kumar", "emailID": "prisha@email.com", "band": "CAREERE1", "subArea": "Mysore", "region": "Karnataka", "panelType": "Human Resource", "from": "19 Jun 2015", "to": "19 Jun 2016"},
+      {"employeeID": 4083, "employeeName": "Prisha Kumar", "emailID": "prisha@email.com", "band": "CAREERE1", "subArea": "Mysore", "region": "Karnataka", "panelType": "Human Resource", "from": "19 Jun 2015", "to": "19 Jun 2016"},
+      {"employeeID": 4084, "employeeName": "Prisha Kumar", "emailID": "prisha@email.com", "band": "CAREERE1", "subArea": "Mysore", "region": "Karnataka", "panelType": "Human Resource", "from": "19 Jun 2015", "to": "19 Jun 2016"},
+      {"employeeID": 4085, "employeeName": "Prisha Kumar", "emailID": "prisha@email.com", "band": "CAREERE1", "subArea": "Mysore", "region": "Karnataka", "panelType": "Human Resource", "from": "19 Jun 2015", "to": "19 Jun 2016"}
+    ]
+  },
+  "cpmPages": {
+    "navTabs": [{
+        "text": "Nominations",
+        "url": "/cpm/nominations"
+      },{
+        "text": "Dockets",
+        "url": "/cpm/docket"
+      },{
+        "text": "Event Sign-Off",
+        "url": "/cpm/event-sign-off"
+      }]
+  },
+  "coe": {
+    "steps": [
+      {"title": "ONBORADING ALLOCATION MATRIX", "url": "/coe/onboarding-allocation-matrix"},
+      {"title": "STREAM ALLOCATION", "url": "/coe/stream-allocation"},
+      {"title": "ASSIGN LOCATION", "url": "/coe/assign-location"}
+    ]
+  },
+  "pendingEvents": {
+    "meta": {"total": 123},
+    "data": [
+      {"id": 1964,"name": "EventName Lorem","startDate": "30 Sep 2017","venue": "Lorem ipsum","jobCode": "CollegeName","type": "Single"},
+      {"id": 1964,"name": "EventName Lorem","startDate": "30 Sep 2017","venue": "Lorem ipsum","jobCode": "CollegeName","type": "Single"},
+      {"id": 1964,"name": "EventName Lorem","startDate": "30 Sep 2017","venue": "Lorem ipsum","jobCode": "CollegeName","type": "Single"},
+      {"id": 1964,"name": "EventName Lorem","startDate": "30 Sep 2017","venue": "Lorem ipsum","jobCode": "CollegeName","type": "Single"}
+    ]
+  },
+  "eventSearchOptions": {
+    "eventType": ["Non Engineering", "Engineering"]
+  },
+  "interviewList": {
+    "meta": {"total": 123},
+    "data": [
+      {"eventId": 1964, "candidateName": "Prisha Kumar", "resumeNumber": 344, "email": "prisha@gmail.com", "collegeName": "College ABC", "hire": "None", "actionType": "FILL IAF"},
+      {"eventId": 1965, "candidateName": "Alex", "resumeNumber": 345, "email": "alex@gmail.com", "collegeName": "CollegeName", "hire": "None", "actionType": "FILL IAF"},
+      {"eventId": 1966, "candidateName": "Prisha Kumar", "resumeNumber": 346, "email": "prisha@gmail.com", "collegeName": "College ABC", "hire": "None", "actionType": "FILL IAF"},
+      {"eventId": 1967, "candidateName": "Prisha Kumar", "resumeNumber": 348, "email": "prisha@gmail.com", "collegeName": "CollegeName", "hire": "None", "actionType": "FILL IAF"},
+      {"eventId": 1968, "candidateName": "Prisha Kumar", "resumeNumber": 345, "email": "prisha@gmail.com", "collegeName": "College ABC", "hire": "None", "actionType": "FILL IAF"},
+      {"eventId": 1969, "candidateName": "Prisha Kumar", "resumeNumber": 346, "email": "prisha@gmail.com", "collegeName": "CollegeName", "hire": "None", "actionType": "FILL IAF"},
+      {"eventId": 1970, "candidateName": "Kirsh Kumar", "resumeNumber": 347, "email": "kirsh@gmail.com", "collegeName": "CollegeName", "hire": "None", "actionType": "FILL IAF"},
+      {"eventId": 1971, "candidateName": "Prisha Kumar", "resumeNumber": 344, "email": "prisha@gmail.com", "collegeName": "College ABC", "hire": "None", "actionType": "FILL IAF"},
+      {"eventId": 1972, "candidateName": "Prisha Kumar", "resumeNumber": 344, "email": "prisha@gmail.com", "collegeName": "College ABC", "hire": "None", "actionType": "FILL IAF"},
+      {"eventId": 1973, "candidateName": "Prisha Kumar", "resumeNumber": 344, "email": "prisha@gmail.com", "collegeName": "CollegeName", "hire": "None", "actionType": "FILL IAF"}
+    ]
+  },
+  "feedbackForm": {
+     "eventId": 7997,
+     "questions": [
+       {
+         "feedQuestion": "Rate overall campus event experience"
+       },
+       {
+         "feedQuestion": "Rate the quality of College"
+       },
+       {
+         "feedQuestion": "Rate the quality of Candidates"
+       },
+       {
+         "feedQuestion": "Rate the efficiency / event execution of the wipro Campus Program Manager"
+       }
+     ]
+   },
+  "listOfCandyStatus": {
+    "meta": {"total": 123},
+    "data": [
+      {"id": "51", "resumeNumber": 4076, "name": "Prish Kumar", "email": "prisha@gmail.com", "eventId": 8251, "eventName": "NovEvent2", "candyDomain": "WASE", "auditStatus": "Cleared by Auditor", "comment":"Comment Lorem ipsum"},
+      {"id": "52", "resumeNumber": 4076, "name": "Prish Kumar", "email": "prisha@gmail.com", "eventId": 8251, "eventName": "NovEvent2", "candyDomain": "WASE", "auditStatus": "Cleared by Auditor",  "comment":"Comment Lorem ipsum"},
+      {"id": "53", "resumeNumber": 4076, "name": "Prish Kumar", "email": "prisha@gmail.com", "eventId": 8251, "eventName": "NovEvent2", "candyDomain": "WASE", "auditStatus": "Cleared by Auditor",  "comment":"Comment Lorem ipsum"},
+      {"id": "54", "resumeNumber": 4076, "name": "Prish Kumar", "email": "prisha@gmail.com", "eventId": 8251, "eventName": "NovEvent2", "candyDomain": "WASE", "auditStatus": "Cleared by Auditor",  "comment":"Comment Lorem ipsum"},
+      {"id": "55", "resumeNumber": 4076, "name": "Prish Kumar", "email": "prisha@gmail.com", "eventId": 8251, "eventName": "NovEvent2", "candyDomain": "WASE", "auditStatus": "Cleared by Auditor",  "comment":"Comment Lorem ipsum"},
+      {"id": "56", "resumeNumber": 4076, "name": "Prish Kumar", "email": "prisha@gmail.com", "eventId": 8251, "eventName": "NovEvent2", "candyDomain": "WASE", "auditStatus": "Cleared by Auditor",  "comment":"Comment Lorem ipsum"},
+      {"id": "57", "resumeNumber": 4076, "name": "Prish Kumar", "email": "prisha@gmail.com", "eventId": 8251, "eventName": "NovEvent2", "candyDomain": "WASE", "auditStatus": "Cleared by Auditor",  "comment":"Comment Lorem ipsum"},
+      {"id": "58", "resumeNumber": 4076, "name": "Prish Kumar", "email": "prisha@gmail.com", "eventId": 8251, "eventName": "NovEvent2", "candyDomain": "WASE", "auditStatus": "Cleared by Auditor",  "comment":"Comment Lorem ipsum"},
+      {"id": "59", "resumeNumber": 4076, "name": "Prish Kumar", "email": "prisha@gmail.com", "eventId": 8251, "eventName": "NovEvent2", "candyDomain": "WASE", "auditStatus": "Cleared by Auditor",  "comment":"Comment Lorem ipsum"},
+      {"id": "60", "resumeNumber": 4076, "name": "Prish Kumar", "email": "prisha@gmail.com", "eventId": 8251, "eventName": "NovEvent2", "candyDomain": "WASE", "auditStatus": "Cleared by Auditor",  "comment":"Comment Lorem ipsum"}
+    ],
+    "auditOptions": ["option 1", "option 2"]
+  },
+  "listOfCandyClarification": {
+    "meta": {"total": 123},
+    "data": [
+      {"resumeNumber": 4076, "name": "Prish Kumar", "email": "prisha@gmail.com", "eventId": 8251, "eventName": "NovEvent2", "candyDomain": "WASE", "currStatus": "Employee Offer", "auditStatus": "RED", "date": "11-07-2016"},
+      {"resumeNumber": 4076, "name": "Prish Kumar", "email": "prisha@gmail.com", "eventId": 8251, "eventName": "NovEvent2", "candyDomain": "WASE", "currStatus": "Employee Offer", "auditStatus": "RED", "date": "11-07-2016"},
+      {"resumeNumber": 4076, "name": "Prish Kumar", "email": "prisha@gmail.com", "eventId": 8251, "eventName": "NovEvent2", "candyDomain": "WASE", "currStatus": "Employee Offer", "auditStatus": "RED", "date": "11-07-2016"},
+      {"resumeNumber": 4076, "name": "Prish Kumar", "email": "prisha@gmail.com", "eventId": 8251, "eventName": "NovEvent2", "candyDomain": "WASE", "currStatus": "Employee Offer", "auditStatus": "RED", "date": "11-07-2016"},
+      {"resumeNumber": 4076, "name": "Prish Kumar", "email": "prisha@gmail.com", "eventId": 8251, "eventName": "NovEvent2", "candyDomain": "WASE", "currStatus": "Employee Offer", "auditStatus": "RED", "date": "11-07-2016"},
+      {"resumeNumber": 4076, "name": "Prish Kumar", "email": "prisha@gmail.com", "eventId": 8251, "eventName": "NovEvent2", "candyDomain": "WASE", "currStatus": "Employee Offer", "auditStatus": "RED", "date": "11-07-2016"},
+      {"resumeNumber": 4076, "name": "Prish Kumar", "email": "prisha@gmail.com", "eventId": 8251, "eventName": "NovEvent2", "candyDomain": "WASE", "currStatus": "Employee Offer", "auditStatus": "RED", "date": "11-07-2016"},
+      {"resumeNumber": 4076, "name": "Prish Kumar", "email": "prisha@gmail.com", "eventId": 8251, "eventName": "NovEvent2", "candyDomain": "WASE", "currStatus": "Employee Offer", "auditStatus": "RED", "date": "11-07-2016"},
+      {"resumeNumber": 4076, "name": "Prish Kumar", "email": "prisha@gmail.com", "eventId": 8251, "eventName": "NovEvent2", "candyDomain": "WASE", "currStatus": "Employee Offer", "auditStatus": "RED", "date": "11-07-2016"},
+      {"resumeNumber": 4076, "name": "Prish Kumar", "email": "prisha@gmail.com", "eventId": 8251, "eventName": "NovEvent2", "candyDomain": "WASE", "currStatus": "Employee Offer", "auditStatus": "RED", "date": "11-07-2016"}
+    ]
+  },
+  "LCMData" : {
+    "data": {
+      "employeeID" : 123456,
+      "region" : "Karnataka",
+      "employeeName" : "Prisha Kumar",
+      "collegeName" : "ABC College",
+      "employeeEmail" : "prisha@domain.com",
+      "campusType" : "Engineering"
+    }
+  },
+  "assessmentForm": {
+    "details": {
+      "Resume Number": "538821",
+      "Candidate Domain": "1147",
+      "Candidate Name": "Reyna Kaur",
+      "SSLC Registration No": "--",
+      "College Name": "NameLorem",
+      "Hiring Domain": "--",
+      "Event Date": "22 Feb-2016"
+    },
+    "points": 546,
+    "componentsOfprofile": [
+      {
+        "sf": "Knowledge",
+        "components": [
+          "Knowledge of fundamental concepts",
+          "Application of knowledge/Analytical & Problem",
+          "Soving Ability Flair for Computer Programming"
+        ]
+      },
+      {
+        "sf": "Competencies",
+        "components": [
+          "Ability to communicate effectively (Language Skills)",
+          "Achievement OrientationSelf Confidence / Energy ",
+          "Ability to work in teams"
+        ]
+      },
+      {
+        "sf": "Motivation & Values",
+        "components": [
+          "Adapability & Flexibility",
+          "Passion for learing / Willingness to Learn"
+        ]
+      },
+      {
+        "sf": "Initiatives",
+        "components": [
+          "Co Curricular excellence",
+          "Extra curriculay excellence"
+        ]
+      }
+    ],
+    "componentsOfprofileHrA": [
+      {
+        "sf": "Competencies",
+        "components": [
+          "Ability to communicate effectively (Language Skills)",
+          "Achievement OrientationSelf Confidence / Energy ",
+          "Ability to work in teams"
+        ]
+      },
+      {
+        "sf": "Motivation & Values",
+        "components": [
+          "Adapability & Flexibility",
+          "Passion for learing / Willingness to Learn"
+        ]
+      },
+      {
+        "sf": "Initiatives",
+        "components": [
+          "Co Curricular excellence",
+          "Extra curriculay excellence"
+        ]
+      }
+    ],
+    "componentsOfprofileHrB": [
+      {
+        "sf": "Communication Skills",
+        "components": [
+          "Articulation",
+          "Pronunciation & Grammar"
+        ],
+        "scoreFactor": 6
+      },
+      {
+        "sf": "Self Confidence",
+        "components": [
+          "Confidence Levels",
+          "Composure"
+        ],
+        "scoreFactor": 8
+      },
+      {
+        "sf": "Subject Knowledge",
+        "components": [
+          "Presentation Content",
+          "Conceptual Clarity"
+        ],
+        "scoreFactor": 8
+      },
+      {
+        "sf": "Initiative & Drive",
+        "components": [
+          "Enthusiam &  Motivation",
+          "Willingness to learn"
+        ],
+        "scoreFactor": 7
+      },
+      {
+        "sf": "Quality of presentation",
+        "components": [
+          "Body Language",
+          "Ability to express & convince"
+        ],
+        "scoreFactor": 7
+      }
+    ],
+    "scoreOptions": ["Excellent", "Good", "Average", "Not Good"],
+    "scorePoints": 30,
+    "totalPoints": 140
+  },
+  "admin":{
+    "manageRoles":{
+      "meta": {"total": 123},
+      "data": [
+        {"id": 1, "name": "Campus Placement Coordinator", "shortCode": "CPC", "collegeName":"College Registration, Empanelment form" },
+        {"id": 2, "name": "Location Campus Manager", "shortCode": "LCM", "collegeName":"College Registration, Empanelment form" },
+        {"id": 3, "name": "National Campus Manager", "shortCode": "NCM", "collegeName":"College Registration, Empanelment form" },
+        {"id": 4, "name": "Candidate", "shortCode": "Candidate", "collegeName":"College Registration, Empanelment form" },
+        {"id": 5, "name": "Campus Head", "shortCode": "CH", "collegeName":"College Registration, Empanelment form" },
+        {"id": 6, "name": "Campus Auditor", "shortCode": "CA", "collegeName":"College Registration, Empanelment form" },
+        {"id": 7, "name": "Campus HR", "shortCode": "CHR", "collegeName":"Empanelment form, Create Event, Event Details, Canidate Details" },
+        {"id": 8, "name": "Campus Program Manager", "shortCode": "CPM", "collegeName":"Empanelment form, Create Event, Event Details, Canidate Details" },
+        {"id": 9, "name": "Campus Staffing Manager", "shortCode": "CSM", "collegeName":"Empanelment form, Create Event, Event Details, Canidate Details" },
+        {"id": 10, "name": "Campus Operation", "shortCode": "CO Team", "collegeName":"Empanelment form, Create Event, Event Details, Canidate Details" }
+      ]
+    },
+    "manageCandidates":{
+      "meta": {"total": 123},
+      "data": [
+        {"id": 1, "name": "John Doe", "currStatus": "Pending Approval", "changeStatus":"GD Selected", "region": "All" },
+        {"id": 2, "name": "Peter pArker", "currStatus": "Pending Approval", "changeStatus":"GD Selected", "region": "All"},
+        {"id": 3, "name": "Ken Harries", "currStatus": "Pending Approval", "changeStatus":"GD Selected", "region": "All"},
+        {"id": 4, "name": "Raymond Talk", "currStatus": "Pending Approval", "changeStatus":"GD Selected", "region": "All"},
+        {"id": 5, "name": "Gonzals", "currStatus": "Pending Approval", "changeStatus":"GD Selected", "region": "All"},
+        {"id": 6, "name": "Cheery Blossm", "currStatus": "Pending Approval", "changeStatus":"GD Selected", "region": "All"},
+        {"id": 7, "name": "Kate Doe", "currStatus": "Pending Approval", "changeStatus":"GD Selected", "region": "All"},
+        {"id": 8, "name": "Jon Walter", "currStatus": "Pending Approval", "changeStatus":"GD Selected", "region": "All"},
+        {"id": 9, "name": "Karen monfer", "currStatus": "Pending Approval", "changeStatus":"GD Selected", "region": "All"},
+        {"id": 10, "name": "Peppir Harris", "currStatus": "Pending Approval", "changeStatus":"GD Selected", "region": "All"}
+      ],
+      "options": {
+        "changeStatus": ["GD Selected", "Status 2", "Status 3"]
+      }
+    },
+    "manageSalary":{
+      "meta": {"total": 123},
+      "data": [
+        {"id": 1, "name": "John Doe", "role": "LCM", "region": "All", "salary": "Rs 5,30,000",  "approved": "Yes", "domain": "Turbo", "subDomain":"Turbo Intern"},
+        {"id": 2, "name": "Peter pArker", "role": "Role Name", "region": "All", "salary": "Rs 5,30,000",  "approved": "Yes", "domain": "Turbo", "subDomain":"Turbo Intern"},
+        {"id": 3, "name": "Ken Harries", "role": "Role Name", "region": "All", "salary": "Rs 5,30,000",  "approved": "Yes", "domain": "Turbo", "subDomain":"Turbo Intern"},
+        {"id": 4, "name": "Raymond Talk", "role": "Role Name", "region": "All", "salary": "Rs 5,30,000",  "approved": "Yes", "domain": "Turbo", "subDomain":"Turbo Intern"},
+        {"id": 5, "name": "Gonzals", "role": "Role Name", "region": "All", "salary": "Rs 5,30,000",  "approved": "Yes", "domain": "Turbo", "subDomain":"Turbo Intern"},
+        {"id": 6, "name": "Cheery Blossm", "role": "Role Name", "region": "All", "salary": "Rs 5,30,000",  "approved": "Yes", "domain": "Turbo", "subDomain":"Turbo Intern"},
+        {"id": 7, "name": "Kate Doe", "role": "Role Name", "region": "US", "salary": "Rs 5,30,000",  "approved": "Yes", "domain": "Turbo", "subDomain":"Turbo Intern"},
+        {"id": 8, "name": "Jon Walter", "role": "Role Name", "region": "India", "salary": "Rs 5,30,000",  "approved": "Yes", "domain": "Turbo", "subDomain":"Turbo Intern"},
+        {"id": 9, "name": "Karen monfer", "role": "Role Name", "region": "All", "salary": "Rs 5,30,000",  "approved": "Yes", "domain": "Turbo", "subDomain":"Turbo Intern"},
+        {"id": 10, "name": "Peppir Harris", "role": "Role Name", "region": "All", "salary": "Rs 5,30,000",  "approved": "Yes", "domain": "Turbo", "subDomain":"Turbo Intern"}
+      ],
+      "options": {
+        "domain": ["Turbo", "Domain 1", "Domain 2"],
+        "subDomain": ["Turbo Intern", "Sub Domain 1", "Sub Domain 2"]
+      }
+    },
+    "manageLcm": {
+      "meta": {
+        "total": 123
+      },
+      "data": [
+        {"id": 1, "name": "John Doe", "event": "LCM", "collegeName": "Name of the college", "campusType": "Engineering", "region": "GD Selected"},
+        {"id": 2, "name": "Peter pArker", "event": "Role Name", "collegeName": "Name of the college", "campusType": "Non-Engineering", "region": "GD Selected"},
+        {"id": 3, "name": "Ken Harries", "event": "Role Name", "collegeName": "Name of the college", "campusType": "Non-Engineering", "region": "GD Selected"},
+        {"id": 4, "name": "Raymond Talk", "event": "Role Name", "collegeName": "Name of the college", "campusType": "Non-Engineering", "region": "GD Selected"},
+        {"id": 5, "name": "Gonzals", "event": "Role Name", "collegeName": "Name of the college", "campusType": "Non-Engineering", "region": "GD Selected"},
+        {"id": 6, "name": "Cheery Blossm", "event": "Role Name", "collegeName": "Name of the college", "campusType": "Engineering", "region": "GD Selected"},
+        {"id": 7, "name": "Kate Doe", "event": "Role Name", "collegeName": "Name of the college", "campusType": "Engineering", "region": "GD Selected"},
+        {"id": 8, "name": "Jon Walter", "event": "Role Name", "collegeName": "Name of the college", "campusType": "Engineering", "region": "GD Selected"},
+        {"id": 9, "name": "Karen monfer", "event": "Role Name", "collegeName": "Name of the college", "campusType": "Engineering", "region": "GD Selected"},
+        {"id": 10, "name": "Peppir Harris", "event": "Role Name", "collegeName": "Name of the college", "campusType": "Engineering", "region": "GD Selected"}
+      ],
+      "regionOptions": ["GD Selected", "Region 1", "Region 2"]
+    },
+    "collegeRegistration": {
+      "values":{
+        "type": "Engineering",
+        "insititue": "University of lorem ipsum",
+        "firstName": "John",
+        "lastName": "Doe",
+        "address1": "Lorem ispum dolor sit amet 1234-567",
+        "address2": "Lorem ispum dolor sit amet 1234-567",
+        "state": "California",
+        "city": "Los Angeles",
+        "country": "United States",
+        "zipCode": "123456",
+        "phones": ["1234 - 0887344"]
+      },
+      "options":{
+        "type": ["Engineering", "Non Engineering", "ONSITE", "Walkin"]
+      }
+    },
+    "mapLcm": {
+      "values": {
+        "rjcNo": 1202,
+        "mjcNo": 1942,
+        "region": "Kamataka",
+        "employeeName": "Srinivas",
+        "campusType": "Engineering",
+        "category": "On Campus",
+        "lcmToMap": "Prashant Gautam"
+      }
+    },
+    "createLcm": {
+      "values": {
+        "region": "Select",
+        "insititue": "Select"
+      },
+      "options": {
+        "region": ["Select", "Select 1", "Select 2"],
+        "insititue": ["Select", "Select 1", "Select 2"]
+      }
+    },
+    "createRole": {
+      "accessOptions": ["College Registration", "Option 1", "Option 2"]
+    },
+    "uploadVendor": {
+      "meta": {
+        "total": 123
+      },
+      "data": [
+        {"eventId": "123", "eventName": "Lorem ipsum dolor sit amet", "startDate": "23-Jun-19", "valueName": "3767", "jobCode": "2244", "eventType": "Single Campus Evnet"},
+        {"eventId": "456", "eventName": "Lorem ipsum dolor sit amet", "startDate": "23-Jun-19", "valueName": "3767", "jobCode": "2244", "eventType": "Single Campus Evnet"},
+        {"eventId": "789", "eventName": "Lorem ipsum dolor sit amet", "startDate": "23-Jun-19", "valueName": "3767", "jobCode": "2244", "eventType": "Single Campus Evnet"},
+        {"eventId": "8392", "eventName": "Lorem ipsum dolor sit amet", "startDate": "23-Jun-19", "valueName": "3767", "jobCode": "2244", "eventType": "Single Campus Evnet"},
+        {"eventId": "918938", "eventName": "Lorem ipsum dolor sit amet", "startDate": "23-Jun-19", "valueName": "3767", "jobCode": "2244", "eventType": "Single Campus Evnet"},
+        {"eventId": "9823", "eventName": "Lorem ipsum dolor sit amet", "startDate": "23-Jun-19", "valueName": "3767", "jobCode": "2244", "eventType": "Single Campus Evnet"},
+        {"eventId": "7823", "eventName": "Lorem ipsum dolor sit amet", "startDate": "23-Jun-19", "valueName": "3767", "jobCode": "2244", "eventType": "Single Campus Evnet"},
+        {"eventId": "8392", "eventName": "Lorem ipsum dolor sit amet", "startDate": "23-Jun-19", "valueName": "3767", "jobCode": "2244", "eventType": "Single Campus Evnet"},
+        {"eventId": "918938", "eventName": "Lorem ipsum dolor sit amet", "startDate": "23-Jun-19", "valueName": "3767", "jobCode": "2244", "eventType": "Single Campus Evnet"},
+        {"eventId": "9823", "eventName": "Lorem ipsum dolor sit amet", "startDate": "23-Jun-19", "valueName": "3767", "jobCode": "2244", "eventType": "Single Campus Evnet"}
+      ]
+    },
+    "candidateDetails": {
+      "reassign": [
+        {"key": "Resume Number", "value": 2231},
+        {"key": "Email ID", "value": "Loremipsum@gmail.com"},
+        {"key": "Event ID", "value": 8723, "select": true},
+        {"key": "Event Start Date", "value": "25-Jun-2017"},
+        {"key": "Venue Name", "value": "Mercury Exhibition Hall"},
+        {"key": "Candidate Name", "value": "John Doe"},
+        {"key": "Candidate Status", "value": "Lorem ipsum", "icon": true},
+        {"key": "Event Category", "value": 3232},
+        {"key": "Event Type", "value": 8723},
+        {"key": "Candidate Current Domain", "value": "25-Jun-2017"}
+      ],
+      "details": {
+        "resumeNumber": 2231,
+        "candidateName": "Jhone Doe",
+        "eventID": 8723
+      }
+    },
+    "processFormData": {
+      "pName" : "College Registration",
+      "shortCode" : "Karnataka",
+      "region" : "",
+      "regionsArr": ["India", "United States of America (non-india)"]
+    },
+    "permissionData": {
+      "user": [
+        {"user": "Open Link", "access": "R", "dependency": "-"},
+        {"user": "CPC", "access": "R, W", "dependency": "Self"},
+        {"user": "LCM", "access": "R, W", "dependency": "CPC"}
+      ],
+      "process": [
+        {"process": "Open Link", "access": "R", "dependency": "-"},
+        {"process": "CPC", "access": "R, W", "dependency": "Self"},
+        {"process": "LCM", "access": "R, W", "dependency": "CPC"}
+      ],
+      "form": [
+        {"form": "Open Link", "access": "R", "dependency": "-"},
+        {"form": "CPC", "access": "R, W", "dependency": "Self"},
+        {"form": "LCM", "access": "R, W", "dependency": "CPC"}
+      ]
+    }
+  },
+"adminProcessCollegeList": {
+    "meta": {"total": 123},
+    "data": [
+      {"id": "51", "processName": "College Registration", "shortCode":"code_name","users": "CPC, LCM","region": "All", "collegeName": "Guru nanek college of Engineering" },
+      {"id": "52", "processName": "Empanelment Form", "shortCode":"code_name","users": "CPC, LCM","region": "All", "collegeName": "College Name" },
+      {"id": "53", "processName": "Master Job Code", "shortCode":"code_name","users": "CSM, CH, NCM","region": "All", "collegeName": "College Name" },
+      {"id": "54", "processName": "Events", "shortCode":"code_name","users": "LCM, NCM","region": "All", "collegeName": "College Name"},
+      {"id": "55", "processName": "Candidate Registration", "shortCode":"code_name","users": "CPM","region": "All", "collegeName": "College Name" },
+      {"id": "56", "processName": "Candidate Application Manual", "shortCode":"code_name","users": "Candidates","region": "All", "collegeName": "College Name" },
+      {"id": "57", "processName": "Process Name 7", "shortCode":"code_name","users": "CSM, CH, NCM","region": "All", "collegeName": "College Name" },
+      {"id": "58", "processName": "Process Name 8", "shortCode":"code_name","users": "LCM, NCM","region": "India", "collegeName": "College Name" },
+      {"id": "59", "processName": "Process Name 9", "shortCode":"code_name","users": "CPM","region": "All", "collegeName": "College Name" },
+      {"id": "60", "processName": "Process Name 10", "shortCode":"code_name","users": "Candidates","region": "All", "collegeName": "College Name" }
+    ]
+  },
+  "itemPropertiesOptions" : {
+    "fieldType" : ["fieldType 1", "fieldType 2", "fieldType 3"]
+  },
+  "hrInterviewList": {
+    "meta": {"total": 123},
+    "data": [
+      {"eventId": 1964, "candidateName": "Prisha Kumar", "resumeNumber": 344, "email": "prisha@gmail.com", "collegeName": "College ABC", "hire": "BUENG", "campusType": "Engineering", "actionType": "FILL IAF"},
+      {"eventId": 1965, "candidateName": "Alex", "resumeNumber": 345, "email": "alex@gmail.com", "collegeName": "CollegeName", "hire": "BUENG", "campusType": "Engineering", "actionType": "FILL IAF"},
+      {"eventId": 1966, "candidateName": "Prisha Kumar", "resumeNumber": 346, "email": "prisha@gmail.com", "collegeName": "College ABC", "hire": "BUENG", "campusType": "Engineering", "actionType": "FILL IAF"},
+      {"eventId": 1967, "candidateName": "Prisha Kumar", "resumeNumber": 348, "email": "prisha@gmail.com", "collegeName": "CollegeName", "hire": "BUENG", "campusType": "Non Engineering", "actionType": "FILL IAF"},
+      {"eventId": 1968, "candidateName": "Prisha Kumar", "resumeNumber": 345, "email": "prisha@gmail.com", "collegeName": "College ABC", "hire": "BUENG", "campusType": "Engineering", "actionType": "FILL IAF"},
+      {"eventId": 1969, "candidateName": "Prisha Kumar", "resumeNumber": 346, "email": "prisha@gmail.com", "collegeName": "CollegeName", "hire": "BUENG", "campusType": "Engineering", "actionType": "FILL IAF"},
+      {"eventId": 1970, "candidateName": "Kirsh Kumar", "resumeNumber": 347, "email": "kirsh@gmail.com", "collegeName": "CollegeName", "hire": "BUENG", "campusType": "Engineering", "actionType": "FILL IAF"},
+      {"eventId": 1971, "candidateName": "Prisha Kumar", "resumeNumber": 344, "email": "prisha@gmail.com", "collegeName": "College ABC", "hire": "BUENG", "campusType": "Engineering", "actionType": "FILL IAF"},
+      {"eventId": 1972, "candidateName": "Prisha Kumar", "resumeNumber": 344, "email": "prisha@gmail.com", "collegeName": "College ABC", "hire": "BUENG", "campusType": "Engineering", "actionType": "FILL PPT"},
+      {"eventId": 1973, "candidateName": "Prisha Kumar", "resumeNumber": 344, "email": "prisha@gmail.com", "collegeName": "CollegeName", "hire": "BUENG", "campusType": "Engineering", "actionType": "FILL PPT"}
+    ]
+  },
+  "reorderProcess": [
+    { "college" :"John Doe", "fieldType": "Droplist", "region": "All"},
+    { "college" :"Peter pArker", "fieldType": "Textbox", "region": "All"},
+    { "college" :"Peppir Harris", "fieldType": "Textbox", "region": "All"},
+    { "college" :"Ken Harries", "fieldType": "Textbox", "region": "All"},
+    { "college" :"Gonzals", "fieldType": "Textbox", "region": "All"},
+    { "college" :"Cheery Blossm", "fieldType": "Droplist", "region": "All"},
+    { "college" :"Kate Doe", "fieldType": "Droplist", "region": "US"},
+    { "college" :"Jon Walter", "fieldType": "Droplist", "region": "India"},
+    { "college" :"Karen monfer", "fieldType": "Textbox", "region": "All"},
+    { "college" :"Peppir Harris", "fieldType": "Phone number", "region": "All"}
+  ],
+  "candidateVideos":{
+    "meta": {"total": 123},
+    "data": [
+      {
+        "title": "Praesent scelerisque eu lectus non congue.",
+        "uploader": "Lorem ispum",
+        "date": "19 August",
+        "text": "Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor.",
+        "image": "/i/video-thumbnail.png",
+        "duration": 80,
+        "url": "https://www.youtube.com/embed/eIho2S0ZahI"
+      },
+      {
+        "title": "Praesent scelerisque eu lectus non congue.",
+        "uploader": "Lorem ispum",
+        "date": "19 August",
+        "text": "Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor.",
+        "image": "/i/video-thumbnail-2.png",
+        "duration": 80,
+        "url": "https://www.youtube.com/embed/eIho2S0ZahI"
+      },
+      {
+        "title": "Praesent scelerisque eu lectus non congue.",
+        "uploader": "Lorem ispum",
+        "date": "19 August",
+        "text": "Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor.",
+        "image": "/i/video-thumbnail.png",
+        "duration": 80,
+        "url": "https://www.youtube.com/embed/eIho2S0ZahI"
+      },
+      {
+        "title": "Praesent scelerisque eu lectus non congue.",
+        "uploader": "Lorem ispum",
+        "date": "19 August",
+        "text": "Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor.",
+        "image": "/i/video-thumbnail-2.png",
+        "duration": 80,
+        "url": "https://www.youtube.com/embed/eIho2S0ZahI"
+      },
+      {
+        "title": "Praesent scelerisque eu lectus non congue.",
+        "uploader": "Lorem ispum",
+        "date": "19 August",
+        "text": "Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor.",
+        "image": "/i/video-thumbnail.png",
+        "duration": 80,
+        "url": "https://www.youtube.com/embed/eIho2S0ZahI"
+      },
+      {
+        "title": "Praesent scelerisque eu lectus non congue.",
+        "uploader": "Lorem ispum",
+        "date": "19 August",
+        "text": "Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor.",
+        "image": "/i/video-thumbnail-2.png",
+        "duration": 80,
+        "url": "https://www.youtube.com/embed/eIho2S0ZahI"
+      },
+      {
+        "title": "Praesent scelerisque eu lectus non congue.",
+        "uploader": "Lorem ispum",
+        "date": "19 August",
+        "text": "Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor.",
+        "image": "/i/video-thumbnail.png",
+        "duration": 80,
+        "url": "https://www.youtube.com/embed/eIho2S0ZahI"
+      },
+      {
+        "title": "Praesent scelerisque eu lectus non congue.",
+        "uploader": "Lorem ispum",
+        "date": "19 August",
+        "text": "Vestibulum magna nulla, sag ittis vitae tortor at, pellentes que ullamcorper dolor.",
+        "image": "/i/video-thumbnail-2.png",
+        "duration": 80,
+        "url": "https://www.youtube.com/embed/eIho2S0ZahI"
+      }
+    ]
+  },
+  "eventRegister": {
+    "sslcOptions": ["Marksheet 1", "Marksheet 2", "Marksheet 3"],
+    "eventData": [
+      {"title": "Event Name", "value": "Engineering"},
+      {"title": "Event Type", "value": "Engineering"},
+      {"title": "Venue Name", "value": "BIET"},
+      {"title": "Event Date", "value": "31 May 2017", "explain": "3 Days"},
+      {"title": "Campus Region", "value": "Karnataka"},
+      {"title": "Venue Address", "address": ["Address Line One", "Address Line Two", "Address Line Three"]}
+    ]
+  },
+  "auditClarification": {
+    "name": "Firstname Lastname",
+    "birth": "06-July-1990",
+    "email": "emailaddress@email.com",
+    "resumeNumber": "542468",
+    "comments": "Comments Lorem ipsum dolor sit amet"
+  },
+"candyProfile" : {
+    "avatar": "/i/avatars/john_doe.png",
+    "formData": {
+      "firstName" : "John",
+      "lastName" : "Karnataka",
+      "dob" : "18 July 1991 ",
+      "code" : "555-555-5555",
+      "candyEmail" : "johndoe@emailaddress.com",
+      "collegeName" : "College_A Name",
+      "sslcSelect": "Chattisgarh",
+      "sslcNumber": "adas23423"
+    },
+    "options": {
+      "collegs": ["College_A Name", "College_B Name"],
+      "sslcSelect": ["Chattisgarh", "Karnataka"]
+    }
+  }
+}

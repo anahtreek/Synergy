@@ -1,0 +1,43 @@
+{
+  "urls":{
+    "serviceUrl": "https://synergy.wipro.com/campus"  
+    },
+  "services":{
+	"get": "/api/generics/get",
+    "masters": "/api/generics/masters",
+    "insert": "/api/generics/insert",
+    "retrive": "/api/generics/reteriveData",
+    "cd": {
+      "login": "/api/candidates/logging-actions",
+      "boardingPass": "/jersey/BoardingPass/boardingPassDetails",
+      "offer": "/jersey/intentService/generateOfferLetter",
+      "offerSubmit": "/jersey/intentService/submitLOI",
+      "joining": "/jersey/JoiningLocation/getJoiningLocationDetails",
+      "candidateImage": "/api/techpanel/getImage?resumeNumber=",
+      "joiningDOJ": "/jersey/JoiningLocation/getDOJforJoiningLocation",
+      "joiningBatches": "/jersey/JoiningLocation/getBatchID",
+      "joiningStreams": "/jersey/JoiningLocation/getStream",
+      "joiningLocation": "/jersey/JoiningLocation/getlocation",
+      "joiningSubmitReject": "/jersey/JoiningLocation/joininglocationRejectStatus",
+      "joiningSubmitAccept": "/jersey/JoiningLocation/joininglocationAcceptStatus",
+      "auditSubmit": "/api/audit/uploadAuditFiles",
+      "candidateRegister": "/api/candidates/getCollegeforEvent",
+      "candidateRegSubmission":"/api/candidates/registration",
+      "candidateProfileImage": "/api/candidates/getImageForResumeNumber"
+    }
+  },
+  "methods":{
+    "post": "POST",
+    "get": "GET"
+  },
+  "requestHeaders":{
+    "Content-Type": "application/json"
+  },
+  "feature": {
+    "candidate": {
+      "cd": "CANDIDATE-DATA",
+      "cvn": "CANDIDATE-VIDEOS-NEWS",
+      "ci": "CANDIDATE-IMAGE"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+@import 'styles/_breakpoints.css';
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.circle{
+  display: inline-block;
+  background-color: rgb(109, 194, 75);
+  border-radius: 100%;
+}
+
+.logo:global(.md) .circle{
+  width: 66px;
+  height: 66px;
+}
+
+
+.logo:global(.sm) .circle{
+  width: 33px;
+  height: 33px;
+}
+
+.title{
+  position: relative;
+  color: #fff;
+}
+
+.logo:global(.md) .title{
+  left: -40px;
+  font-size: 30px;
+}
+
+.logo:global(.sm) .title{
+  left: -20px;
+  font-size: 16px;
+}
+
+@mixin mobile {
+  .logo:global(.md) .circle{
+    width: 50px;
+    height: 50px;
+  }
+  .logo:global(.md) .title{
+    font-size: 26px;
+    left: -30px;
+  }
+}

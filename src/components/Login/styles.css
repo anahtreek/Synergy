@@ -1,0 +1,230 @@
+@import 'styles/_breakpoints.css';
+
+.loginPage {
+  display: flex;
+  min-height: 100vh;
+  color: #fdfdfd;
+  position: relative;
+}
+
+.leftPanel {
+  flex: 1;
+  background: url(i/login-bg.jpg);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0 22px;
+  position: relative;
+  min-height: 100vh;
+}
+
+.description {
+  font-size: 18px;
+  margin-top: 16px;
+}
+
+.filler {
+  flex: 1;
+}
+
+.copyright {
+  font-size: 14px;
+}
+
+.rightPanel .copyright {
+  display: none;
+}
+
+.rightPanel {
+  flex-basis: 496px;
+  width: 496px;
+  background-color: #263238;
+  padding-top: 100px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.loginPage p {
+  color: #fdfdfd;
+  opacity: 0.8;
+}
+
+.loginForm {
+  padding: 0 70px;
+  position: relative;
+  z-index: 1000;
+}
+
+.loginForm h1 {
+  font-size: 28px;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.loginForm .separator {
+  display: block;
+  margin-left: -70px;
+  height: 2px;
+  background-color: #fff;
+  width: 138px;
+  /* margin-bottom: 65px; */
+}
+
+.forgotPassword {
+  margin: 30px 0;
+  color: #6dc24b;
+  cursor: pointer;
+}
+
+.loginPage :global .btn.primary {
+  font-size: 16px;
+}
+
+.socialLoginText {
+  font-size: 14px;
+  color: rgba(255,255,255,.8);
+  margin: 45px 0 40px;
+}
+
+.socialIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialIcons span {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 13px;
+}
+
+.socialIcons .fbIcon {
+  /* background: url(/i/social-icons/fb.png); */
+  background: url(i/cd/change-password.png);
+  background-size: 100% 100%;
+}
+
+.socialIcons .twitterIcon {
+  /* background: url(/i/social-icons/twitter.png); */
+  background: url(i/cd/password-reset.png);
+  background-size: 100% 100%;
+}
+
+.socialIcons .linkedinIcon {
+  /* background: url(/i/social-icons/linkedin.png); */
+  background: url(i/cd/edit.png);
+  background-size: 100% 100%;
+}
+
+.socialIcons .googleIcon {
+  /* background: url(/i/social-icons/google.png); */
+  background: url(i/cd/feedback-icon.png);
+  background-size: 100% 100%;
+}
+
+@mixin mobile {
+  .loginPage {
+    padding: 51px 27px 27px;
+    flex-direction: column;
+    background: #263238;
+  }
+
+  .leftPanel {
+    flex: 1 0 auto;
+    padding: 0;
+    background: none;
+    min-height: initial;
+  }
+
+  .description {
+    font-size: 12px;
+    margin: 14px 0 0;
+  }
+
+  .leftPanel .copyright {
+    display: none;
+  }
+
+  .rightPanel {
+    flex: 1 0 auto;
+    padding: 0;
+    width: 100%;
+    flex-basis: auto;
+    display: flex;
+  }
+
+  .loginForm {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .loginForm .formHead {
+    display: none;
+  }
+
+  .forgotPassword {
+    font-size: 15px;
+  }
+
+  .loginPage :global .btn.primary {
+    /* height: 50px; */
+    font-size: 13px;
+  }
+
+  .rightPanel .copyright {
+    display: block;
+    margin: 46px 0 0;
+    text-align: center;
+    font-size: 11px;
+  }
+
+  .socialLoginText {
+    margin: 47px 0 30px;
+  }
+}
+
+.ppad{
+  /* padding-top: 20px; */
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  line-height: 25px;
+}
+.pfootpad{
+  padding-top: 30px;
+  padding-right: 50px;
+  /* padding-bottom: 20px; */
+  padding-left: 50px;
+  line-height: 20px;
+}
+.separatorcp {
+  width: 298px !important;
+}
+.separatorrp {
+  width: 273px !important;
+}
+.separatorfp {
+  width: 280px !important;
+}
+.separatorue {
+  width: 268px !important;
+}
+.separatorfrn {
+  width: 395px !important;
+}
+.msgclr{
+  color: red;
+}
+.dtWidth{
+  width: 346px
+}

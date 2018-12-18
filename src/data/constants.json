@@ -1,0 +1,36 @@
+{
+    "empanelment": {
+        "progress": [
+            {
+                "title": "Institute Profile",
+                "progress": 0,
+                "icon": "/i/icons/em-institute-icon.png",
+                "url": "/cpc/empanelment-form/institute-profile"
+            },
+            {
+                "title": "Quantitative Details",
+                "progress": 0,
+                "icon": "/i/icons/em-qdetails-icon.png",
+                "url": "/cpc/empanelment-form/quantitative-details"
+            },
+            {
+                "title": "Faculty Details",
+                "progress": 0,
+                "icon": "/i/icons/em-faculty-icon.png",
+                "url": "/cpc/empanelment-form/faculty-details"
+            },
+            {
+                "title": "Student Details",
+                "progress": 0,
+                "icon": "/i/icons/em-student-icon.png",
+                "url": "/cpc/empanelment-form/student-details"
+            },
+            {
+                "title": "Placement Details",
+                "progress": 0,
+                "icon": "/i/icons/em-placement-icon.png",
+                "url": "/cpc/empanelment-form/placement-details"
+            }
+        ]
+    }
+}

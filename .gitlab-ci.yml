@@ -1,0 +1,49 @@
+image: node:latest
+
+variables:
+  PORT: 3000
+  APP_TITLE: "Recruitment App"
+  NODE_ENV: development
+  PUBLIC_URL: https://tc-wipro-recruitment.herokuapp.com/
+
+cache:
+  paths:
+  - node_modules/
+
+stages:
+  - build
+  - test
+  - deploy
+
+building:
+  script:
+    - echo "Building the app"
+    - npm i
+  stage: build
+
+testing:
+  script:
+    - echo "Skipping tests"
+    #- npm i
+    #- npm install gulp
+    #- npm test
+    #- echo "Running SonarQube and Pushing to AWS"
+    #- node_modules/gulp/bin/gulp.js --gulpfile ./gulpfile.js
+  stage: test
+
+deploy_stage:
+  stage: deploy
+  script:
+  - echo "Deploying the app"
+  - apt-get update -qy
+  - apt-get install -y rubygems ruby-dev
+  - gem install dpl
+  - dpl --provider=heroku --app=tc-wipro-recruitment --api-key=$HEROKU_PRODUCTION_API_KEY
+  only:
+  - develop
+  environment:
+    name: stage
+    url: tc-wipro-recruitment.herokuapp.com
+variables:
+  GIT_STRATEGY: fetch
+  GIT_SUBMODULE_STRATEGY: recursive

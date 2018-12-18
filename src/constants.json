@@ -1,0 +1,6 @@
+{
+    "urls": {
+        "cam-bgv-redirect": "https://synergy.wipro.com/Campus/CDService?rd=",
+        "logout": "https://synergy.wipro.com/campus/cd/"
+    }
+}

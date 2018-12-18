@@ -1,0 +1,171 @@
+@import 'styles/_breakpoints.css';
+
+.container {
+  position: relative;
+  margin-top: 40px;
+  display: inline-block;
+}
+
+:global(.rdtPicker) {
+  padding: 0 0 5px;
+}
+.container :global(.rdtPicker) table {
+  border-collapse: separate;
+}
+.container :global(.rdtPicker) th,
+.container :global(.rdtPicker) :global(.dow) {
+  background: #fff;
+  border: none;
+  border-bottom: 1px solid #9189d4;
+  font-size: 14px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.container :global(.rdtPicker) td {
+  border: none;
+  vertical-align: middle;
+  padding: 5px;
+  font-size: 14px;
+}
+.container :global(.rdtPicker) tbody tr td:first-child,
+.container :global(.rdtPicker) tbody tr td:last-child {
+  background: none;
+  border: none;
+}
+
+.container :global(.rdtPicker) td:global(.rdtToday):before {
+  content: '';
+  display: block;
+  background: none;
+  width: 0;
+  height: 0;
+  top: initial;
+  left: initial;
+}
+.container :global(.rdtPicker) td:global(.rdtToday):before {
+  width: 0;
+  height: 0;
+}
+
+.container :global(.rdtPicker) td:global(.rdtActive) {
+  background: none;
+  text-shadow: none;
+  color: #428bca;
+}
+.container :global(.rdtPicker) td:global(.rdtDay):hover,
+.container :global(.rdtPicker) td:global(.rdtHour):hover,
+.container :global(.rdtPicker) td:global(.rdtMinute):hover,
+.container :global(.rdtPicker) td:global(.rdtSecond):hover,
+.container :global(.rdtPicker) :global(.rdtTimeToggle):hover {
+  background: #eeeeee;
+  cursor: pointer;
+}
+
+.container :global(.rdtPicker) td:global(.rdtActive):hover {
+  background: #428bca;
+  color: #fff;
+}
+
+.container :global(.rdt) {
+  width: 100%;
+}
+
+.select.material {
+  height: 38px;
+}
+
+.group{
+  border-bottom: 1px solid #b2b2b2;
+  padding-right: 30px;
+}
+
+input.material::-webkit-datetime-edit{
+  color: transparent;
+}
+
+input.material {
+  font-size: 14px;
+  padding: 10px 10px 10px 5px;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  color: #000;
+  cursor: default;
+}
+
+:global(.light) .group {
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
+.error .group {
+  border-bottom-color: #ef3341;
+}
+
+.label {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+}
+
+:global(.col-md-6) > .label {
+  left: calc(.5rem + 5px);
+}
+
+:global(.light) .label {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.focused.label {
+  top: -10px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+:global(.light) .focused.label {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.errorMessage {
+  display: block;
+  color: #ef3341;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.calendarIcon,
+.clockIcon{
+  display: inline-block;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 6px;
+  top: 10px;
+}
+
+.calendarIcon{
+  width: 20px;
+  height: 22px;
+  background-image: url(i/icons/calendar-icon.png);
+}
+
+.clockIcon{
+  width: 23px;
+  height: 23px;
+  background-image: url(i/icons/clock-icon.png);
+}
+
+.asterisk{
+  margin-left: 5px;
+  color: #ef3341;
+}
+
+@mixin mobile {
+  input.material {
+    min-height: 41px;
+  }
+}

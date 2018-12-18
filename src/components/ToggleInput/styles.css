@@ -1,0 +1,129 @@
+@import 'styles/_breakpoints.css';
+
+.toggleWrap {
+  display: inline-block;
+  vertical-align: middle;
+  position: static;
+  pointer-events: auto;
+}
+
+.toggleWrap input {
+  display: none;
+}
+
+/* toggle */
+.toggleInput .toggleBtn {
+  position: relative;
+  display: inline-block;
+  height: 12px;
+  width: 36px;
+  cursor: pointer;
+  border-radius: 6px;
+  background-color: #b5b5b5;
+  transition: background-color .2s ease;
+}
+
+.toggleInput .toggleBtn:before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: solid 2px #b5b5b5;
+  background: white;
+  left: 0px;
+  transition: left .15s ease;
+  box-sizing: border-box;
+  box-shadow: 2px 0 4px rgba(0,0,0,.07);
+}
+
+.toggleInput input:checked + .toggleBtn {
+  background-color: #6dc24b;
+}
+
+.toggleInput input:checked + .toggleBtn:before {
+  border-color: #6dc24b;
+  left: calc(100% - 20px);
+}
+
+/* toggle input with labels */
+
+.toggleOnOff .toggleBtn {
+  width: 55px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.toggleOnOff .toggleBtn:before {
+  top: 0;
+  transition: left .2s ease;
+}
+
+.toggleOnOff .toggleBtn:after {
+  content: attr(data-off);
+  display: inline-block;
+  margin-left: 23px;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.toggleOnOff input:checked + .toggleBtn:after {
+  content: attr(data-on);
+  margin-left: 10px;
+}
+
+/* checkbox */
+.checkboxInput.toggleWrap {
+  display: inline-flex;
+  align-items: center;
+}
+
+.checkboxInput .toggleBtn {
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+
+  background: white;
+  border: 2px solid #a9a9a9;
+  border-radius: 2px;
+  flex: 0 0 auto;
+}
+:global(.stream-location):hover :global(.gCheckbox).checkboxInput .toggleBtn {
+  border-color: #fff;
+  opacity: 0.8;
+  background: transparent;
+}
+.checkboxInput .toggleBtn:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.checkboxInput input:checked + .toggleBtn,
+:global(.stream-location):hover :global(.gCheckbox).checkboxInput input:checked + .toggleBtn {
+  background-color: #6dc24b;
+  border: 0 none;
+}
+
+.checkboxInput input:checked + .toggleBtn:before {
+  background: url('i/icons/check-mark.png') center no-repeat;
+}
+
+.textLabel {
+  margin-left: 5px;
+}
+
+@mixin mobile {
+  .checkboxInput.toggleWrap {
+    align-items: flex-start;
+  }
+}

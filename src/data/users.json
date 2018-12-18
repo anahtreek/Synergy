@@ -1,0 +1,86 @@
+[
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "username": "user-cpc",
+    "password": "1234",
+    "role": "CPC"
+  },
+  {
+    "firstName": "David",
+    "lastName": "Doe",
+    "username": "user-lcm",
+    "password": "1234",
+    "role": "LCM"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "username": "user-candidate",
+    "password": "1234",
+    "role": "Candidate"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "username": "user-ncm",
+    "password": "1234",
+    "role": "NCM"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "username": "user-ch",
+    "password": "1234",
+    "role": "CH"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "username": "user-csm",
+    "password": "1234",
+    "role": "CSM"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "username": "user-cpm",
+    "password": "1234",
+    "role": "CPM"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "username": "user-coe",
+    "password": "1234",
+    "role": "COE"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "username": "user-tpu",
+    "password": "1234",
+    "role": "Tech Panel User"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "username": "user-hr",
+    "password": "1234",
+    "role": "HR"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "username": "user-ca",
+    "password": "1234",
+    "role": "CA"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "username": "user-campus-auditor",
+    "password": "1234",
+    "role": "Campus Auditor"
+  }
+]

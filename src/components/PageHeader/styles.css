@@ -1,0 +1,224 @@
+@import 'styles/_breakpoints.css';
+
+.pageHeader {
+  font-size: 14px;
+  border-bottom: 1px solid #7f7f7f;
+}
+
+.pageHeader .cWrap {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.topbar {
+  height: 48px;
+  color: white;
+  background: #263238;
+}
+
+.topbar .logoWrap {
+  display: flex;
+  align-items: center;
+}
+
+.topbar .spacer {
+  display: block;
+  width: 1px;
+  height: 26px;
+  background: #93999c;
+  margin: 0 20px;
+}
+
+.quickActions {
+  margin-left: auto;
+
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+}
+
+.quickActions li + li {
+  margin-left: 21px;
+}
+
+.qAction img {
+  opacity: .6;
+  transition: opacity .15s ease;
+}
+
+.qAction:hover img,
+.qAction.active img {
+  opacity: 1;
+}
+
+.navbar {
+  height: 52px;
+  background: #6dc24b;
+  color: white;
+}
+
+.navbarCpage {
+  font-size: 16px;
+}
+
+.navbar nav {
+  margin-left: auto;
+}
+
+.pageNav {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+}
+
+.pageNav a {
+  display: block;
+  padding: 0 12px;
+  line-height: 52px;
+}
+
+.pageNav a.current {
+  position: relative;
+  font-weight: bold;
+}
+
+.pageNav a.current:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 100%;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: white;
+}
+
+.pageNav li + li {
+  margin-left: 30px;
+}
+
+.crumb:not(:last-child):after {
+  content: "";
+  display: inline-block;
+  background: url('i/icons/crumb-arrow.png') center no-repeat;
+  width: 4px;
+  height: 8px;
+  margin: 0 12px;
+}
+
+.profileIcon {
+  width: 18px;
+  height: 18px;
+}
+
+@mixin mobile {
+  .pageHeader {
+    border: none;
+  }
+  .topbar {
+    height: 58px;
+    padding: 0 20px 0 15px;
+  }
+  .humbergerIcon {
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  .humbergerIcon .line {
+    display: block;
+    background: #fff;
+    height: 1px;
+    width: 15px;
+    margin-bottom: 3px;
+  }
+  .asideNav {
+    position: fixed;
+    top: 0;
+    left: -350px;
+    width: 320px;
+    max-width: 75%;
+    height: 100%;
+    background-color: #263238;
+    box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    transition: left 0.4s;
+  }
+  .asideOpen .asideNav {
+    left: 0;
+  }
+  .asideHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin: 13px 0 32px;
+  }
+  .asideHead .closeIcon {
+    cursor: pointer;
+    display: inline-block;
+    background: url('i/mobile-icons/aside-close.png') center no-repeat;
+    width: 11px;
+    height: 11px;
+    background-size: 100%;
+  }
+  .asideBody {
+    height: calc(100% - 136px);
+    overflow-y: auto;
+    padding-bottom: 10px;
+  }
+  .hasProfile .asideBody {
+    height: calc(100% - 169px);
+  }
+  .pageNav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .pageNav a {
+    font-size: 16px;
+    padding: 0 29px;
+    color: #cccccc;
+  }
+  .pageNav a.current {
+    color: #fff;
+  }
+  .pageNav a.current:after {
+    width: 3px;
+    height: 100%;
+  }
+  .pageNav li {
+    width: 100%;
+  }
+  .pageNav li + li {
+    margin: 0;
+  }
+
+  .asideFoot {
+    color: #ccc;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 29px 25px;
+    align-items: flex-end;
+  }
+  .asideFoot a {
+    display: flex;
+    align-items: center;
+  }
+  .asideFoot a img {
+    margin-right: 12px;
+  }
+  :global(body) {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  :global(body.asideOpen) {
+    overflow: hidden;
+  }
+
+  .profile{
+    margin-top: 15px;
+  }
+}

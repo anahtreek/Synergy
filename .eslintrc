@@ -1,0 +1,26 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "globals": {
+    "window": false,
+    "document": false,
+    "navigator": false,
+    "URL": false,
+    "fetch": false
+  },
+  "rules": {
+    "no-console": 0,
+    "no-param-reassign": 0,
+    "global-require": 0,
+    "import/no-dynamic-require": 0,
+    "import/no-named-as-default": 0,
+    "import/no-named-as-default-member": 0,
+    "react/no-array-index-key": 0,
+    "react/no-danger": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "jsx-a11y/no-noninteractive-element-interactions": 0,
+    "react/no-did-mount-set-state": 0,
+    "guard-for-in": 0,
+    "jsx-a11y/label-has-for": 0
+  }
+}
